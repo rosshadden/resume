@@ -1,8 +1,10 @@
-(function(Modernizr,$,undefined){
-
-	$.getJSON('js/json/resume.json',function(resume){
-		console.log('resume',resume);
+(function(Modernizr,$,template,undefined){
+	
+	$.get('views/resume.html',function(page){
+		$.getJSON('js/json/resume.json',function(resume){
+			$('#main').html(template.compile(page)(resume));
+		});
 	});
-
-})(Modernizr,jQuery);
+	
+})(Modernizr,jQuery,Handlebars);
 
