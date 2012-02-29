@@ -1,0 +1,92 @@
+<h1>{{contact.name}}</h1>
+
+<section>
+	<h2>Contact</h2>
+	<dl>
+		<dt>Email</dt>
+		<dd>
+			<a href="mailto:{{contact.email}}">{{contact.email}}</a>
+		</dd>
+		<dt>Phone</dt>
+		<dd>
+			<a href="tel:{{contact.phone}}">{{contact.phone}}</a>
+		</dd>
+	</dl>
+</section>
+	
+<section>
+	<h2>Address</h2>
+	<ul>
+		<li>{{address.street}}</li>
+		<li>{{address.city}}</li>
+		<li>{{address.state}}</li>
+		<li>{{address.zip}}</li>
+	</ul>
+</section>
+	
+<section>
+	<h2>Skills</h2>
+	<ul>
+		{{#each skills}}
+			<li>{{this}}</li>
+		{{/each}}
+	</ul>
+</section>
+	
+<section>
+	<h2>Experience</h2>
+	{{#each experience}}
+		<h3>{{who}}</h3>
+		<dl>
+			{{#if what}}
+				<dt>Position</dt>
+				<dd>{{what}}</dd>
+			{{/if}}
+			{{#if when}}
+				<dt>When</dt>
+				<dd>{{when}}</dd>
+			{{/if}}
+			{{#if where}}
+				<dt>Location</dt>
+				<dd>{{where}}</dd>
+			{{/if}}
+			{{#if why}}
+				<dt>Tagline</dt>
+				<dd>{{why}}</dd>
+			{{/if}}
+			{{#if how}}
+				<dt>Tasks</dt>
+				<dd>{{how}}</dd>
+			{{/if}}
+		</dl>
+	{{/each}}
+</section>
+	
+<section>
+	<h2>Education</h2>
+	{{#each education}}
+		<h3>{{who}}</h3>
+		<dl>
+			{{#if what}}
+				<dt>Degree</dt>
+				<dd>{{what}}</dd>
+			{{/if}}
+			{{#if when}}
+				<dt>When</dt>
+				<dd>{{when}}</dd>
+			{{/if}}
+			{{#if where}}
+				<dt>Location</dt>
+				<dd>{{where}}</dd>
+			{{/if}}
+			{{#if why}}
+				<dt>Type</dt>
+				<dd>{{why}}</dd>
+			{{/if}}
+			{{#if how}}
+				<dt>Tasks</dt>
+				<dd>{{how}}</dd>
+			{{/if}}
+		</dl>
+	{{/each}}
+</section>

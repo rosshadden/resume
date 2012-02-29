@@ -1,0 +1,39 @@
+/* TEAM */
+  Front-End Developer: Ross Hadden
+  Site: rosshadden.com
+  Twitter: darthlink44
+  Location: Cincinnati, OH
+
+/* THANKS */
+  Names (& URL): Tom Dooner, John Resig (http://jquery.com), Paul Irish (http://paulirish.com)
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery, jQueryUI, Modernizr
+  Software: Notepad++
+  
+
+                                    
+                               -o/-                       
+                               +oo//-                     
+                              :ooo+//:                    
+                             -ooooo///-                   
+                             /oooooo//:                   
+                            :ooooooo+//-                  
+                           -+oooooooo///-                 
+           -://////////////+oooooooooo++////////////::    
+            :+ooooooooooooooooooooooooooooooooooooo+:::-  
+              -/+ooooooooooooooooooooooooooooooo+/::////:-
+                -:+oooooooooooooooooooooooooooo/::///////:-
+                  --/+ooooooooooooooooooooo+::://////:-   
+                     -:+ooooooooooooooooo+:://////:--     
+                       /ooooooooooooooooo+//////:-        
+                      -ooooooooooooooooooo////-           
+                      /ooooooooo+oooooooooo//:            
+                     :ooooooo+/::/+oooooooo+//-           
+                    -oooooo/::///////+oooooo///-          
+                    /ooo+::://////:---:/+oooo//:          
+                   -o+/::///////:-      -:/+o+//-         
+                   :-:///////:-            -:/://         
+                     -////:-                 --//:        
+                       --                       -:        

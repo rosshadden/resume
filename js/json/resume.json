@@ -1,0 +1,93 @@
+{
+	"contact": {
+		"name":		"Ross Hadden",
+		"email":	"rosshadden@gmail.com",
+		"phone":	"513-259-0656"
+	},
+	"address": {
+		"street":	"8228 Melrose Ln",
+		"city":		"Maineville",
+		"state":	"OH",
+		"zip":		45039,
+		"country":	"USA"
+	},
+	"skills": [
+		"JavaScript",
+		"HTML5",
+		"CSS3",
+		"PHP",
+		"AJAX",
+		"Node.js",
+		"MySQL",
+		"RegEx"
+	],
+	"experience":	[{
+		"who":		"NxTech, Incorporated",
+		"what":		"Front-End Web Developer",
+		"when":		"January 2011 to present",
+		"where":	"Milford, OH",
+		"why":		"A leading provider of insurance interface solutions.",
+		"how":	[
+			"Application Development",
+			"Design"
+		]
+	},{
+		"who":		"How Handy Is That",
+		"what":		"Web Developer",
+		"why":		"Tightly focused professional services firm providing digital services to individuals and businesses.",
+		"how":	[
+			"Development",
+			"Design"
+		]
+	},{
+		"who":		"EmployeeTalk",
+		"what":		"Web Developer",
+		"why":		"An innovative leader in assessing and reporting critical business information.",
+		"how":	[
+			"Development",
+			"Design"
+		]
+	},{
+		"who":		"Kings Island",
+		"what":		"Information Systems Analyst",
+		"when":		"April 2009 to November 2011",
+		"where":	"Mason, OH",
+		"why":		"Family-friendly amusement park.",
+		"how":	[
+			"Maintaining servers, computers, databases, and cash registers across the park",
+			"Designed, developed, and implemented websites in use on the company-wide Intranet",
+			"Active Directory, Exchange Server, LAN, VPN, and server administration assistance"
+		]
+	}],
+	"education":	[{
+		"who":		"University of Cincinnati",
+		"what":		"B.S., M.S., Computer Science",
+		"when":		"expected completion Spring 2015",
+		"where":	"Cincinnati, OH",
+		"why":		"College"
+	},{
+		"who":		"Lebanon High School",
+		"what":		"H.S. Diploma, GPA 4.11, Ranked 11 of 410 students.",
+		"when":		"2005 - 2009",
+		"where":	"Cincinnati, OH",
+		"why":		"High School"
+	}],
+	"media":	{
+		"Google":	{
+			"id":	"rosshadden",
+			"link":	"https://plus.google.com/111367185993193485746"
+		},
+		"GitHub":	{
+			"id":	"rosshadden",
+			"link":	"https://github.com/rosshadden"
+		},
+		"LinkedIn":	{
+			"id":	"rosshadden",
+			"link":	"http://www.linkedin.com/in/rosshadden"
+		},
+		"Twitter":	{
+			"id":	"darthlink44",
+			"link":	"https://twitter.com/#!/darthlink44"
+		}
+	}
+}
