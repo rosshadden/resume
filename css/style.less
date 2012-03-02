@@ -1,36 +1,13 @@
-section{
-	margin:20px 0;
-	
-	& > h1:before, & > h2:before, & > h3:before{
-		content:'"';
+#main{
+	.string, .string a{
+		color: #393;
+		font-style: italic;
 	}
-	& > h1:after, & > h2:after, & > h3:after{
-		content:'": {';
-	}
-	&:after{
-		content:'},';
-	}
-	&:last-of-type:after{
-		content:'};';
+	.array .string{
+		color: #933;
 	}
 	
-	ul, dl{
-		list-style:none;
-		
-		dt:after{
-			content:': ';
-		}
-		dd:before{
-			content:'"';
-		}
-		dd:not(:last-of-type):after{
-			content:'",';
-		}
-		dd:last-of-type:after{
-			content:'"';
-		}
-		li:not(:last-of-type):after{
-			content:',';
-		}
+	section{
+		margin-bottom: 18px;
 	}
 }
