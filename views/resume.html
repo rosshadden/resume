@@ -1,29 +1,29 @@
-<h1>{{contact.name}}</h1>
+<h1 class="root">{{contact.name}}</h1>
 
 <address class="object">
 	<div class="row">
-		<h2 class="offset1 span4">Contact</h2>
+		<h2 class="offset1 span4 key">Contact</h2>
 	</div>
 	<div class="row">
-		<h3 class="offset2 span2">Email</h3>
-		<div class="span3 string">
-			<a href="mailto:{{contact.email}}">{{contact.email}}</a>
+		<h3 class="offset2 span2 key">Email</h3>
+		<div class="span3">
+			<a href="mailto:{{contact.email}}" class="string">{{contact.email}}</a>
 		</div>
 	</div>
 	<div class="row">
-		<h3 class="offset2 span2">Phone</h3>
-		<div class="span3 string">
-			<a href="tel:{{contact.phone}}">{{contact.phone}}</a>
+		<h3 class="offset2 span2 key">Phone</h3>
+		<div class="span3">
+			<a href="tel:{{contact.phone}}" class="string">{{contact.phone}}</a>
 		</div>
 	</div>
 	<div class="row">
-		<h3 class="offset2 span2">Address</h3>
-		<div class="span3 string">
+		<h3 class="offset2 span2 key">Address</h3>
+		<div class="span3">
 			<div class="row">
-				<div class="span3">{{address.street}}</div>
+				<div class="span3 string">{{address.street}}</div>
 			</div>
 			<div class="row">
-				<div class="span3">{{address.city}}, {{address.state}} {{address.zip}}</div>
+				<div class="span3 string">{{address.city}}, {{address.state}} {{address.zip}}</div>
 			</div>
 		</div>
 	</div>
@@ -31,7 +31,7 @@
 	
 <section>
 	<div class="row">
-		<h2 class="offset1 span4">Skills</h2>
+		<h2 class="offset1 span4 key">Skills</h2>
 	</div>
 	{{#each skills}}
 		<div class="row">
@@ -42,40 +42,40 @@
 	
 <section>
 	<div class="row">
-		<h2 class="offset1 span4">Experience</h2>
+		<h2 class="offset1 span4 key">Experience</h2>
 	</div>
 	{{#each experience}}
 		<section>
 			<div class="row">
-				<h3 class="offset2 span4">{{who}}</h3>
+				<h3 class="offset2 span4 key">{{who}}</h3>
 			</div>
 			{{#if what}}
 				<div class="row">
-					<h4 class="offset3 span2">Position</h4>
+					<h4 class="offset3 span2 key">Position</h4>
 					<div class="span5 string">{{what}}</div>
 				</div>
 			{{/if}}
 			{{#if when}}
 				<div class="row">
-					<h4 class="offset3 span2">When</h4>
+					<h4 class="offset3 span2 key">When</h4>
 					<div class="span5 string">{{when}}</div>
 				</div>
 			{{/if}}
 			{{#if where}}
 				<div class="row">
-					<h4 class="offset3 span2">Location</h4>
+					<h4 class="offset3 span2 key">Location</h4>
 					<div class="span5 string">{{where}}</div>
 				</div>
 			{{/if}}
 			{{#if why}}
 				<div class="row">
-					<h4 class="offset3 span2">Tagline</h4>
+					<h4 class="offset3 span2 key">Tagline</h4>
 					<div class="span5 string">{{why}}</div>
 				</div>
 			{{/if}}
 			{{#if how}}
 				<div class="row">
-					<h4 class="offset3 span2">Tasks</h4>
+					<h4 class="offset3 span2 key">Tasks</h4>
 					<div class="span5 array">
 						{{#each how}}
 							<div class="row">
@@ -91,35 +91,35 @@
 	
 <section>
 	<div class="row">
-		<h2 class="offset1 span4">Education</h2>
+		<h2 class="offset1 span4 key">Education</h2>
 	</div>
 	<h2></h2>
 	{{#each education}}
 		<section>
 			<div class="row">
-				<h3 class="offset2 span4">{{who}}</h3>
+				<h3 class="offset2 span4 key">{{who}}</h3>
 			</div>
 			{{#if what}}
 				<div class="row">
-					<h4 class="offset3 span2">Degree</h4>
+					<h4 class="offset3 span2 key">Degree</h4>
 					<div class="span5 string">{{what}}</div>
 				</div>
 			{{/if}}
 			{{#if when}}
 				<div class="row">
-					<h4 class="offset3 span2">When</h4>
+					<h4 class="offset3 span2 key">When</h4>
 					<div class="span5 string">{{when}}</div>
 				</div>
 			{{/if}}
 			{{#if where}}
 				<div class="row">
-					<h4 class="offset3 span2">Location</h4>
+					<h4 class="offset3 span2 key">Location</h4>
 					<div class="span5 string">{{where}}</div>
 				</div>
 			{{/if}}
 			{{#if why}}
 				<div class="row">
-					<h4 class="offset3 span2">Type</h4>
+					<h4 class="offset3 span2 key">Type</h4>
 					<div class="span5 string">{{why}}</div>
 				</div>
 			{{/if}}
