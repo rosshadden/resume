@@ -1,50 +1,36 @@
 section{
 	margin:20px 0;
 	
+	& > h1:before, & > h2:before, & > h3:before{
+		content:'"';
+	}
+	& > h1:after, & > h2:after, & > h3:after{
+		content:'": {';
+	}
 	&:after{
 		content:'},';
-		font-size:24px; font-weight:bold;
 	}
-	&:last-child:after{
+	&:last-of-type:after{
 		content:'};';
 	}
 	
-	h2:before, h3:before{
-		content:'"';
-	}
-	h2:after, h3:after{
-		content:'": {';
-	}
-	h3{
-		margin-left:20px;
-		
-		& ~ ul:after{
-			content:'],';
-			margin-left:-20px;
-			font-size:18px; font-weight:bold;
-		}
-		& ~ dl:after{
-			content:'},';
-			margin-left:-20px;
-			font-size:18px; font-weight:bold;
-		}
-	}
 	ul, dl{
-		margin-left:40px;
-		
-		li:not(:last-of-type):after, dd:not(:last-of-type):after{
-			content:',';
-		}
-	}
-	ul{
 		list-style:none;
-	}
-	dl{
-		dt:before{
+		
+		dt:after{
+			content:': ';
+		}
+		dd:before{
 			content:'"';
 		}
-		dt:after{
-			content:'":';
+		dd:not(:last-of-type):after{
+			content:'",';
+		}
+		dd:last-of-type:after{
+			content:'"';
+		}
+		li:not(:last-of-type):after{
+			content:',';
 		}
 	}
 }

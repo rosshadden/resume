@@ -36,57 +36,61 @@
 <section>
 	<h2>Experience</h2>
 	{{#each experience}}
-		<h3>{{who}}</h3>
-		<dl>
-			{{#if what}}
-				<dt>Position</dt>
-				<dd>{{what}}</dd>
-			{{/if}}
-			{{#if when}}
-				<dt>When</dt>
-				<dd>{{when}}</dd>
-			{{/if}}
-			{{#if where}}
-				<dt>Location</dt>
-				<dd>{{where}}</dd>
-			{{/if}}
-			{{#if why}}
-				<dt>Tagline</dt>
-				<dd>{{why}}</dd>
-			{{/if}}
-			{{#if how}}
-				<dt>Tasks</dt>
-				<dd>{{how}}</dd>
-			{{/if}}
-		</dl>
+		<section>
+			<h3>{{who}}</h3>
+			<dl>
+				{{#if what}}
+					<dt>Position</dt>
+					<dd>{{what}}</dd>
+				{{/if}}
+				{{#if when}}
+					<dt>When</dt>
+					<dd>{{when}}</dd>
+				{{/if}}
+				{{#if where}}
+					<dt>Location</dt>
+					<dd>{{where}}</dd>
+				{{/if}}
+				{{#if why}}
+					<dt>Tagline</dt>
+					<dd>{{why}}</dd>
+				{{/if}}
+				{{#if how}}
+					<dt>Tasks</dt>
+					<dd>{{how}}</dd>
+				{{/if}}
+			</dl>
+		</section>
 	{{/each}}
 </section>
 	
 <section>
 	<h2>Education</h2>
 	{{#each education}}
-		<h3>{{who}}</h3>
-		<dl>
-			{{#if what}}
-				<dt>Degree</dt>
-				<dd>{{what}}</dd>
-			{{/if}}
-			{{#if when}}
-				<dt>When</dt>
-				<dd>{{when}}</dd>
-			{{/if}}
-			{{#if where}}
-				<dt>Location</dt>
-				<dd>{{where}}</dd>
-			{{/if}}
-			{{#if why}}
-				<dt>Type</dt>
-				<dd>{{why}}</dd>
-			{{/if}}
-			{{#if how}}
-				<dt>Tasks</dt>
-				<dd>{{how}}</dd>
-			{{/if}}
-		</dl>
+		<section>
+			<h3>{{who}}</h3>
+			<dl>
+				{{#if what}}
+					<dt>Degree</dt>
+					<dd>{{what}}</dd>
+				{{/if}}
+				{{#if when}}
+					<dt>When</dt>
+					<dd>{{when}}</dd>
+				{{/if}}
+				{{#if where}}
+					<dt>Location</dt>
+					<dd>{{where}}</dd>
+				{{/if}}
+				{{#if why}}
+					<dt>Type</dt>
+					<dd>{{why}}</dd>
+				{{/if}}
+				{{#if how}}
+					<dt>Tasks</dt>
+					<dd>{{how}}</dd>
+				{{/if}}
+			</dl>
+		</section>
 	{{/each}}
 </section>
