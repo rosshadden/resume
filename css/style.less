@@ -17,7 +17,19 @@ section{
 	ul, dl{
 		list-style:none;
 		
-		li:not(:last-of-type):after, dd:not(:last-of-type):after{
+		dt:after{
+			content:': ';
+		}
+		dd:before{
+			content:'"';
+		}
+		dd:not(:last-of-type):after{
+			content:'",';
+		}
+		dd:last-of-type:after{
+			content:'"';
+		}
+		li:not(:last-of-type):after{
 			content:',';
 		}
 	}
