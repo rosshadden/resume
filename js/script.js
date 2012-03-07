@@ -8,6 +8,8 @@
 				.find('.key').append(':').end()
 				.find('.string').prepend("'").append("'");
 			
+//			log($html.find('.string:last-child'));
+			
 			$('#main').html($html);
 		});
 	});
