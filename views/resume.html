@@ -1,96 +1,128 @@
-<h1>{{contact.name}}</h1>
+<h1 class="root">{{contact.name}}</h1>
 
+<address class="object">
+	<div class="row">
+		<h2 class="offset1 span4 key">Contact</h2>
+	</div>
+	<div class="row">
+		<h3 class="offset2 span2 key">Email</h3>
+		<div class="span3">
+			<a href="mailto:{{contact.email}}" class="value string">{{contact.email}}</a>
+		</div>
+	</div>
+	<div class="row">
+		<h3 class="offset2 span2 key">Phone</h3>
+		<div class="span3">
+			<a href="tel:{{contact.phone}}" class="value string">{{contact.phone}}</a>
+		</div>
+	</div>
+	<div class="row">
+		<h3 class="offset2 span2 key">Address</h3>
+		<div class="span3">
+			<div class="row">
+				<div class="span3 value string">{{address.street}}</div>
+			</div>
+			<div class="row">
+				<div class="span3 value string">{{address.city}}, {{address.state}} {{address.zip}}</div>
+			</div>
+		</div>
+	</div>
+</address>
+	
 <section>
-	<h2>Contact</h2>
-	<dl>
-		<dt>Email</dt>
-		<dd>
-			<a href="mailto:{{contact.email}}">{{contact.email}}</a>
-		</dd>
-		<dt>Phone</dt>
-		<dd>
-			<a href="tel:{{contact.phone}}">{{contact.phone}}</a>
-		</dd>
-	</dl>
+	<div class="row">
+		<h2 class="offset1 span4 key">Skills</h2>
+	</div>
+	{{#each skills}}
+		<div class="row">
+			<div class="offset2 span4 value string">{{this}}</div>
+		</div>
+	{{/each}}
 </section>
 	
 <section>
-	<h2>Address</h2>
-	<ul>
-		<li>{{address.street}}</li>
-		<li>{{address.city}}</li>
-		<li>{{address.state}}</li>
-		<li>{{address.zip}}</li>
-	</ul>
-</section>
-	
-<section>
-	<h2>Skills</h2>
-	<ul>
-		{{#each skills}}
-			<li>{{this}}</li>
-		{{/each}}
-	</ul>
-</section>
-	
-<section>
-	<h2>Experience</h2>
+	<div class="row">
+		<h2 class="offset1 span4 key">Experience</h2>
+	</div>
 	{{#each experience}}
 		<section>
-			<h3>{{who}}</h3>
-			<dl>
-				{{#if what}}
-					<dt>Position</dt>
-					<dd>{{what}}</dd>
-				{{/if}}
-				{{#if when}}
-					<dt>When</dt>
-					<dd>{{when}}</dd>
-				{{/if}}
-				{{#if where}}
-					<dt>Location</dt>
-					<dd>{{where}}</dd>
-				{{/if}}
-				{{#if why}}
-					<dt>Tagline</dt>
-					<dd>{{why}}</dd>
-				{{/if}}
-				{{#if how}}
-					<dt>Tasks</dt>
-					<dd>{{how}}</dd>
-				{{/if}}
-			</dl>
+			<div class="row">
+				<h3 class="offset2 span4 key">{{who}}</h3>
+			</div>
+			{{#if what}}
+				<div class="row">
+					<h4 class="offset3 span2 key">Position</h4>
+					<div class="span5 value string">{{what}}</div>
+				</div>
+			{{/if}}
+			{{#if when}}
+				<div class="row">
+					<h4 class="offset3 span2 key">When</h4>
+					<div class="span5 value string">{{when}}</div>
+				</div>
+			{{/if}}
+			{{#if where}}
+				<div class="row">
+					<h4 class="offset3 span2 key">Location</h4>
+					<div class="span5 value string">{{where}}</div>
+				</div>
+			{{/if}}
+			{{#if why}}
+				<div class="row">
+					<h4 class="offset3 span2 key">Tagline</h4>
+					<div class="span5 value string">{{why}}</div>
+				</div>
+			{{/if}}
+			{{#if how}}
+				<div class="row">
+					<h4 class="offset3 span2 key">Tasks</h4>
+					<div class="span5 array">
+						{{#each how}}
+							<div class="row">
+								<div class="span5 value string">{{this}}</div>
+							</div>
+						{{/each}}
+					</div>
+				</div>
+			{{/if}}
 		</section>
 	{{/each}}
 </section>
 	
 <section>
-	<h2>Education</h2>
+	<div class="row">
+		<h2 class="offset1 span4 key">Education</h2>
+	</div>
+	<h2></h2>
 	{{#each education}}
 		<section>
-			<h3>{{who}}</h3>
-			<dl>
-				{{#if what}}
-					<dt>Degree</dt>
-					<dd>{{what}}</dd>
-				{{/if}}
-				{{#if when}}
-					<dt>When</dt>
-					<dd>{{when}}</dd>
-				{{/if}}
-				{{#if where}}
-					<dt>Location</dt>
-					<dd>{{where}}</dd>
-				{{/if}}
-				{{#if why}}
-					<dt>Type</dt>
-					<dd>{{why}}</dd>
-				{{/if}}
-				{{#if how}}
-					<dt>Tasks</dt>
-					<dd>{{how}}</dd>
-				{{/if}}
-			</dl>
+			<div class="row">
+				<h3 class="offset2 span4 key">{{who}}</h3>
+			</div>
+			{{#if what}}
+				<div class="row">
+					<h4 class="offset3 span2 key">Degree</h4>
+					<div class="span5 value string">{{what}}</div>
+				</div>
+			{{/if}}
+			{{#if when}}
+				<div class="row">
+					<h4 class="offset3 span2 key">When</h4>
+					<div class="span5 value string">{{when}}</div>
+				</div>
+			{{/if}}
+			{{#if where}}
+				<div class="row">
+					<h4 class="offset3 span2 key">Location</h4>
+					<div class="span5 value string">{{where}}</div>
+				</div>
+			{{/if}}
+			{{#if why}}
+				<div class="row">
+					<h4 class="offset3 span2 key">Type</h4>
+					<div class="span5 value string">{{why}}</div>
+				</div>
+			{{/if}}
 		</section>
 	{{/each}}
 </section>
