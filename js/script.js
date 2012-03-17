@@ -29,6 +29,10 @@
 						);
 					}
 				}).end()
+				.find('div.array')
+					.prepend('<div class="row"><div class="span1">[</div></div>')
+					.append('<div class="row"><div class="span1">]</div></div>')
+				.end()
 				.find('.string').prepend("'").append("'").end()
 				.find('section:not(:has(section))').find('.string:not(":last")').append(',');
 
