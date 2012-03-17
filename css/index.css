@@ -6022,15 +6022,45 @@ body {
   }
 }
 body {
-  background: #396;
-  color: #666;
+  padding: 40px 0;
+  background: #7abfce;
 }
-body #main h2,
-body #main h3,
-body #main h4,
-body #main h5,
-body #main h6 {
-  color: #666;
+body #main {
+  padding: 20px 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background: #f0faf0;
+  background-image: url(../img/noise.png);
+  -webkit-box-shadow: 1px 1px 0 #666666;
+  -moz-box-shadow: 1px 1px 0 #666666;
+  box-shadow: 1px 1px 0 #666666;
+  -webkit-box-shadow: 1px 1px 0 #666666;
+  -moz-box-shadow: 1px 1px 0 #666666;
+  box-shadow: 1px 1px 0 #666666;
+  /*		.rotate(1deg);*/
+
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -ms-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -ms-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+body #main #logo {
+  text-shadow: 0 2px 3px #555;
+  font-size: 36px;
+}
+body #main .bracket {
+  color: #999;
+  font-weight: normal;
 }
 body #main .string, body #main .string a {
   color: #393;
