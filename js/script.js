@@ -6,16 +6,20 @@
 			
 			$html
 				.find('.key').append(':').each(function(k,key){
-					var $key = $(key);
+					var $key = $(key),
+						salutation = {
+							true:	'}',
+							false:	'},'
+						};
 					
 					if($key.next().length === 0){
 						$key.append(' {').closest('section').append(
-							$key.parent().clone().children().text('},').end()
+							$key.parent().clone().children().text(salutation[$key.closest('section').is(':last-of-type')]).end()
 						);
 					}
 				}).end()
 				.find('.string').prepend("'").append("'").end()
-				.find('address,section:not(:has(section))').find('.string:not(":last")').append(',');
+				.find('section:not(:has(section))').find('.string:not(":last")').append(',');
 
 			$('#main').html($html);
 		});
