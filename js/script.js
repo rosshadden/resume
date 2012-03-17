@@ -20,18 +20,20 @@
 						};
 					
 					if($key.next().length === 0){
-						$key.append(($section.hasClass('array')) ? ' [' : ' {');
+						$key.append('<span class="bracket">' + (($section.hasClass('array')) ? ' [' : ' {') + '</span>');
 						
 						$section.append(
-							$key.parent().clone().children().text(
-								salutation[($section.hasClass('array')) ? 'array' : 'object'][$section.is(':last-of-type')]
+							$key.parent().clone().children().html(
+								'<span class="bracket">'
+									+(salutation[($section.hasClass('array')) ? 'array' : 'object'][$section.is(':last-of-type')])
+								+'</span>'
 							).end()
 						);
 					}
 				}).end()
 				.find('div.array')
-					.prepend('<div class="row"><div class="span1">[</div></div>')
-					.append('<div class="row"><div class="span1">]</div></div>')
+					.prepend('<div class="row"><div class="span1 bracket">[</div></div>')
+					.append('<div class="row"><div class="span1 bracket">]</div></div>')
 				.end()
 				.find('.string').prepend("'").append("'").end()
 				.find('section:not(:has(section))').find('.string:not(":last")').append(',');
