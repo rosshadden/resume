@@ -7,7 +7,11 @@
 			log($html);
 			
 			$html
-				.find('.key').append(':').end()
+				.find('.key').append(':').each(function(k,key){
+					if($(key).next().length === 0){
+						$(key).append(' {');
+					}
+				}).end()
 				.find('.string').prepend("'").append("'").end()
 				.find('address,section:not(:has(section))').find('.string:not(":last")').append(',');
 
