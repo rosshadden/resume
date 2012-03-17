@@ -4,12 +4,14 @@
 		$.getJSON('js/json/resume.json',function(resume){
 			var $html = $(template.compile(page)(resume));
 			
-			log($html);
-			
 			$html
 				.find('.key').append(':').each(function(k,key){
-					if($(key).next().length === 0){
-						$(key).append(' {');
+					var $key = $(key);
+					
+					if($key.next().length === 0){
+						$key.append(' {').closest('section').append(
+							$key.parent().clone().children().text('},').end()
+						);
 					}
 				}).end()
 				.find('.string').prepend("'").append("'").end()
