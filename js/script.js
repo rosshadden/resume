@@ -7,14 +7,25 @@
 			$html
 				.find('.key').append(':').each(function(k,key){
 					var $key = $(key),
+						$section = $key.closest('section'),
 						salutation = {
-							true:	'}',
-							false:	'},'
+							'array':	{
+								true:	']',
+								false:	'],'
+							},
+							'object':	{
+								true:	'}',
+								false:	'},'
+							}
 						};
 					
 					if($key.next().length === 0){
-						$key.append(' {').closest('section').append(
-							$key.parent().clone().children().text(salutation[$key.closest('section').is(':last-of-type')]).end()
+						$key.append(($section.hasClass('array')) ? ' [' : ' {');
+						
+						$section.append(
+							$key.parent().clone().children().text(
+								salutation[($section.hasClass('array')) ? 'array' : 'object'][$section.is(':last-of-type')]
+							).end()
 						);
 					}
 				}).end()
