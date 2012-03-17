@@ -5,6 +5,7 @@
 			var $html = $(template.compile(page)(resume));
 			
 			$html
+				.find('.string').prepend("'").append("'").end()
 				.find('.key').append(':').each(function(k,key){
 					var $key = $(key),
 						$section = $key.closest('section'),
@@ -30,13 +31,18 @@
 							).end()
 						);
 					}
+					
+					if($key.next(':not(".array")').children('.row').children('.string').length > 1){
+						$key.next(':not(".array")').children('.row').children('.string')
+							.not(':last').addClass('visited-comma').end()
+							.last().prepend('+');
+					}
 				}).end()
 				.find('div.array')
 					.prepend('<div class="row"><div class="span1 bracket">[</div></div>')
 					.append('<div class="row"><div class="span1 bracket">]</div></div>')
 				.end()
-				.find('.string').prepend("'").append("'").end()
-				.find('section:not(:has(section))').find('.string:not(":last")').append(',');
+				.find('section:not(:has(section))').find('.string:not(":last, .visited-comma")').append(',').addClass('visited-comma');
 
 			$('#main').html($html);
 		});
