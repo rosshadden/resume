@@ -4,12 +4,13 @@
 		$.getJSON('js/json/resume.json',function(resume){
 			var $html = $(template.compile(page)(resume));
 			
+			log($html);
+			
 			$html
 				.find('.key').append(':').end()
-				.find('.string').prepend("'").append("'");
-			
-//			log($html.find('.string:last-child'));
-			
+				.find('.string').prepend("'").append("'").end()
+				.find('address,section:not(:has(section))').find('.string:not(":last")').append(',');
+
 			$('#main').html($html);
 		});
 	});
