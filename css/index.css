@@ -6062,6 +6062,10 @@ body #main .bracket {
   color: #999;
   font-weight: normal;
 }
+body #main .operator, body #main .punctuation {
+  color: #669;
+  font-weight: bold;
+}
 body #main .string, body #main .string a {
   color: #393;
   font-style: italic;
