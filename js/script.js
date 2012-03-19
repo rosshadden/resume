@@ -2,9 +2,11 @@
 	
 	$.get('views/resume.html',function(page){
 		$.getJSON('js/json/resume.json',function(resume){
-			var $html = $(template.compile(page)(resume));
+			var $html = $(template.compile(page)(resume)),
+				logo = $html.find('#logo').text();
 			
 			$html
+				.find('#logo').text(logo.replace(/\s/g,'_')).end()
 				.find('.string').prepend('<span class="punctuation">&lsquo;</span>').append('<span class="punctuation">&rsquo;</span>').end()
 				.find('.key').each(function(k,key){
 					var $key = $(key),
