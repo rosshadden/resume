@@ -22,7 +22,7 @@
 		"RegEx"
 	],
 	"experience":	[{
-		"who":		"NxTech, Incorporated",
+		"who":		"NxTech, Inc.",
 		"what":		"Front-End Web Developer",
 		"when":		"January 2011 to present",
 		"where":	"Milford, OH",
@@ -54,7 +54,7 @@
 		"where":	"Mason, OH",
 		"why":		"Family-friendly amusement park.",
 		"how":	[
-			"Maintaining servers, computers, databases, and cash registers across the park",
+			"Maintained servers, computers, databases, and cash registers across the park",
 			"Designed, developed, and implemented websites in use on the company-wide Intranet",
 			"Active Directory, Exchange Server, LAN, VPN, and server administration assistance"
 		]
