@@ -1,6 +1,7 @@
 body{
 	padding: 40px 0;
 	background: #333;
+	font-size: 15px;
 	
 	#main{
 		padding: 20px 10px;
@@ -9,11 +10,15 @@ body{
 		background-image: url(../img/noise.png);
 		.box-shadow(1px 1px 0 #666);
 		.rotate(-1deg);
-		.transition(all 1s ease-in);
+		.transition(transform 1s ease-in);
 		
 		#logo{
 			text-shadow: 0 2px 3px #555;
 			font-size: 36px;
+		}
+		
+		.key a{
+			color: #333;
 		}
 		
 		.bracket{
@@ -38,6 +43,19 @@ body{
 
 		.array .string{
 			color: #933;
+		}
+		
+		a.string, .string a, .key a{
+			border-bottom: 1px dotted #999;
+			.transition(all .4s ease-out);
+			
+			&:hover{
+				border-bottom-color: @blue;
+				text-shadow:
+					1px 1px 0 #666,
+					0 0 16px @blue;
+				text-decoration: none;
+			}
 		}
 		
 		.indent{

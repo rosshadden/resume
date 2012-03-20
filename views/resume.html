@@ -21,10 +21,10 @@
 			<h3 class="offset2 span1 key">Address</h3>
 			<div class="span3">
 				<div class="row">
-					<div class="span3 value string">{{address.street}}</div>
+					<div class="span3 value string"><a href="{{address.link}}">{{address.street}}</a></div>
 				</div>
 				<div class="row">
-					<div class="span3 value string">{{address.city}}, {{address.state}} {{address.zip}}</div>
+					<div class="span3 value string"><a href="{{address.link}}">{{address.city}}, {{address.state}} {{address.zip}}</a></div>
 				</div>
 			</div>
 		</div>
@@ -48,7 +48,7 @@
 		{{#each experience}}
 			<section>
 				<div class="row">
-					<h3 class="offset2 span4 key">{{who}}</h3>
+					<h3 class="offset2 span4 key"><a href="{{link}}">{{who}}</a></h3>
 				</div>
 				{{#if what}}
 					<div class="row">
@@ -98,7 +98,7 @@
 		{{#each education}}
 			<section>
 				<div class="row">
-					<h3 class="offset2 span4 key">{{who}}</h3>
+					<h3 class="offset2 span4 key"><a href="{{link}}">{{who}}</a></h3>
 				</div>
 				{{#if what}}
 					<div class="row">
