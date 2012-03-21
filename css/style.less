@@ -23,6 +23,11 @@ body{
 	padding: 40px 0;
 	background: #333;
 	font-size: 15px;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
 	
 	#main{
 		padding: 20px 10px;
@@ -33,9 +38,49 @@ body{
 		.rotate(-1deg);
 		.transition(transform 1s ease-in);
 		
-		#logo{
-			text-shadow: 0 2px 3px #555;
-			font-size: 36px;
+		.root{
+			line-height: 64px;
+			
+			#logo{
+				text-shadow: 0 2px 3px #555;
+				font-size: 36px;
+			}
+		}
+		
+		#media{
+			text-align: right;
+			
+			ul{
+				list-style: none;
+				
+				li{
+					width: 64px; height: 64px;
+					display: inline-block;
+					margin: 0 10px;
+					opacity: 0.4;
+					text-align: center;
+					cursor: pointer;
+					.transition(all 0.4s ease-in);
+					-webkit-transform: rotateX(-30deg) rotateZ(-15deg);
+					-moz-transform: rotateX(-30deg) rotateZ(-15deg);
+					-ms-transform: rotateX(-30deg) rotateZ(-15deg);
+					-o-transform: rotateX(-30deg) rotateZ(-15deg);
+					transform: rotateX(-30deg) rotateZ(-15deg);
+					
+					&:hover{
+						opacity: 1;
+						-webkit-transform: rotateX(0deg) rotateZ(0deg);
+						-moz-transform: rotateX(0deg) rotateZ(0deg);
+						-ms-transform: rotateX(0deg) rotateZ(0deg);
+						-o-transform: rotateX(0deg) rotateZ(0deg);
+						transform: rotateX(0deg) rotateZ(0deg);
+					}
+					
+					a:hover{
+						text-decoration: none;
+					}
+				}
+			}
 		}
 		
 		.key a{

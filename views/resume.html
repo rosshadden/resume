@@ -1,5 +1,18 @@
 <div class="content">
-	<h1 class="root"><small class="keyword">var</small> <span id="logo">{{contact.name}}</span> = {</h1>
+	<div class="row">
+		<h1 class="root span4"><small class="keyword">var</small> <span id="logo">{{contact.name}}</span> = {</h1>
+		<span id="media" class="offset1 span7">
+			<ul>
+				{{#each media}}
+					<li>
+						<a href="{{link}}" title="{{id}}">
+							<img src="img/{{image}}">
+						</a>
+					</li>
+				{{/each}}
+			</ul>
+		</span>
+	</div>
 
 	<section class="object">
 		<div class="row">
@@ -130,13 +143,3 @@
 	
 	<h1 class="root">};</h1>
 </div>
-
-<aside id="media">
-	<ul>
-		{{#each media}}
-			<li>
-				<a href="{{link}}" title="{{id}}">{{name}}</a>
-			</li>
-		{{/each}}
-	</ul>
-</aside>
