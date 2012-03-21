@@ -89,22 +89,35 @@
 		"where":	"Cincinnati, OH",
 		"why":		"High School"
 	}],
-	"media":	{
-		"Google":	{
-			"id":	"rosshadden",
-			"link":	"https://plus.google.com/111367185993193485746"
-		},
-		"GitHub":	{
-			"id":	"rosshadden",
-			"link":	"https://github.com/rosshadden"
-		},
-		"LinkedIn":	{
-			"id":	"rosshadden",
-			"link":	"http://www.linkedin.com/in/rosshadden"
-		},
-		"Twitter":	{
-			"id":	"darthlink44",
-			"link":	"https://twitter.com/#!/darthlink44"
-		}
-	}
+	"media":	[{
+		"name":	"Google",
+		"id":	"rosshadden",
+		"link":	"https://plus.google.com/111367185993193485746",
+		"image":"google.png"
+	},{
+		"name":	"GitHub",
+		"id":	"rosshadden",
+		"link":	"https://github.com/rosshadden",
+		"image":"github.png"
+	},{
+		"name":	"Twitter",
+		"id":	"darthlink44",
+		"link":	"https://twitter.com/#!/darthlink44",
+		"image":"twitter.png"
+	},{
+		"name":	"Facebook",
+		"id":	"ross.hadden",
+		"link":	"http://facebook.com/ross.hadden",
+		"image":"facebook.png"
+	},{
+		"name":	"LinkedIn",
+		"id":	"rosshadden",
+		"link":	"http://linkedin.com/in/rosshadden",
+		"image":"linkedin.png"
+	},{
+		"name":	"YouTube",
+		"id":	"darthlink44",
+		"link":	"http://youtube.com/user/darthlink44",
+		"image":"youtube.png"
+	}]
 }
