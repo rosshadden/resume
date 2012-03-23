@@ -30,18 +30,23 @@
 		"where":	"Seattle, WA",
 		"why":		"Placeholder for ConnectAI's tagline.",
 		"how":	[
-			"Application Development"
+			"JavaScript Ninja",
+			"Application development",
+			"Particle system"
 		]
 	},{
 		"who":		"NxTech, Inc.",
 		"link":		"http://nxtech.net",
-		"what":		"Front-End Web Developer",
+		"what":		"Senior JavaScript Developer; Front-End Web Developer",
 		"when":		"January 2011 to present",
 		"where":	"Milford, OH",
 		"why":		"A leading provider of insurance interface solutions.",
 		"how":	[
-			"Application Development",
-			"Design"
+			"JavaScript Ninja",
+			"Application development",
+			"Design",
+			"Complex form logic",
+			"Large-scale web applications for large insurance companies"
 		]
 	},{
 		"who":		"How Handy Is That",
