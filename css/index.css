@@ -6059,23 +6059,15 @@ body #main {
   -moz-border-radius: 10px;
   border-radius: 10px;
   background: #f0faf0;
-  background-image: url(../img/noise.png);
+  background-image: url(../img/white_texture.png);
   -webkit-box-shadow: 1px 1px 0 #666666;
   -moz-box-shadow: 1px 1px 0 #666666;
   box-shadow: 1px 1px 0 #666666;
   -webkit-box-shadow: 1px 1px 0 #666666;
   -moz-box-shadow: 1px 1px 0 #666666;
   box-shadow: 1px 1px 0 #666666;
-  -webkit-transform: rotate(-1deg);
-  -moz-transform: rotate(-1deg);
-  -ms-transform: rotate(-1deg);
-  -o-transform: rotate(-1deg);
-  transform: rotate(-1deg);
-  -webkit-transform: rotate(-1deg);
-  -moz-transform: rotate(-1deg);
-  -ms-transform: rotate(-1deg);
-  -o-transform: rotate(-1deg);
-  transform: rotate(-1deg);
+  /*		.rotate(-1deg);*/
+
   -webkit-transition: transform 1s ease-in;
   -moz-transition: transform 1s ease-in;
   -ms-transition: transform 1s ease-in;
@@ -6106,6 +6098,12 @@ body #main #media ul li {
   display: inline-block;
   margin: 0 10px;
   opacity: 0.4;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
   text-align: center;
   cursor: pointer;
   -webkit-transition: all 0.4s ease-in;
