@@ -52,6 +52,7 @@
 		"who":		"How Handy Is That",
 		"link":		"http://howhandyisthat.com",
 		"what":		"Web Developer (Freelance)",
+		"when":		"March 2012",
 		"why":		"Tightly focused professional services firm providing digital services to individuals and businesses.",
 		"how":	[
 			"Development",
@@ -61,6 +62,7 @@
 		"who":		"EmployeeTalk",
 		"link":		"http://employeetalk.us",
 		"what":		"Web Developer (Freelance)",
+		"when":		"February 2012",
 		"why":		"An innovative leader in assessing and reporting critical business information.",
 		"how":	[
 			"Development",
@@ -83,16 +85,18 @@
 		"who":		"University of Cincinnati",
 		"link":		"http://uc.edu",
 		"what":		"B.S., M.S., Computer Science",
-		"when":		"Expected Spring 2015",
+		"when":		"Graduate in Spring of 2015",
 		"where":	"Cincinnati, OH",
-		"why":		"College"
+		"why":		"College",
+		"rating":	"3.467 current GPA"
 	},{
 		"who":		"Lebanon High School",
 		"link":		"http://lebanon.k12.oh.us",
-		"what":		"H.S. Diploma, GPA 4.11, Ranked 11 of 410 students.",
+		"what":		"H.S. Diploma",
 		"when":		"2005 - 2009",
-		"where":	"Cincinnati, OH",
-		"why":		"High School"
+		"where":	"Lebanon, OH",
+		"why":		"High School",
+		"rating":	"4.11 GPA; Ranked 11th of 410 students"
 	}],
 	"media":	[{
 		"name":	"Google",
