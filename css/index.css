@@ -6177,7 +6177,7 @@ body .hologram {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background: #007d9a;
+  background: rgba(0, 125, 154, 0.8);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
@@ -6231,7 +6231,7 @@ body .hologram strong {
 }
 @-webkit-keyframes hologram {
   from {
-    background-color: #007d9a;
+    background-color: rgba(0, 125, 154, 0.8);
     -webkit-box-shadow: 0 0 9px #333333;
     -moz-box-shadow: 0 0 9px #333333;
     box-shadow: 0 0 9px #333333;
@@ -6240,16 +6240,16 @@ body .hologram strong {
     box-shadow: 0 0 9px #333333;
   }
   50% {
-    background-color: #2daebf;
-    -webkit-box-shadow: 0 0 18px #2daebf;
-    -moz-box-shadow: 0 0 18px #2daebf;
-    box-shadow: 0 0 18px #2daebf;
-    -webkit-box-shadow: 0 0 18px #2daebf;
-    -moz-box-shadow: 0 0 18px #2daebf;
-    box-shadow: 0 0 18px #2daebf;
+    background-color: rgba(45, 174, 191, 0.6);
+    -webkit-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -moz-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -webkit-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -moz-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
   }
   to {
-    background-color: #007d9a;
+    background-color: rgba(0, 125, 154, 0.8);
     -webkit-box-shadow: 0 0 9px #333333;
     -moz-box-shadow: 0 0 9px #333333;
     box-shadow: 0 0 9px #333333;
@@ -6260,7 +6260,7 @@ body .hologram strong {
 }
 @-moz-keyframes hologram {
   from {
-    background-color: #007d9a;
+    background-color: rgba(0, 125, 154, 0.8);
     -webkit-box-shadow: 0 0 9px #333333;
     -moz-box-shadow: 0 0 9px #333333;
     box-shadow: 0 0 9px #333333;
@@ -6269,16 +6269,16 @@ body .hologram strong {
     box-shadow: 0 0 9px #333333;
   }
   50% {
-    background-color: #2daebf;
-    -webkit-box-shadow: 0 0 18px #2daebf;
-    -moz-box-shadow: 0 0 18px #2daebf;
-    box-shadow: 0 0 18px #2daebf;
-    -webkit-box-shadow: 0 0 18px #2daebf;
-    -moz-box-shadow: 0 0 18px #2daebf;
-    box-shadow: 0 0 18px #2daebf;
+    background-color: rgba(45, 174, 191, 0.6);
+    -webkit-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -moz-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -webkit-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -moz-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
   }
   to {
-    background-color: #007d9a;
+    background-color: rgba(0, 125, 154, 0.8);
     -webkit-box-shadow: 0 0 9px #333333;
     -moz-box-shadow: 0 0 9px #333333;
     box-shadow: 0 0 9px #333333;
@@ -6289,7 +6289,7 @@ body .hologram strong {
 }
 @-ms-keyframes hologram {
   from {
-    background-color: #007d9a;
+    background-color: rgba(0, 125, 154, 0.8);
     -webkit-box-shadow: 0 0 9px #333333;
     -moz-box-shadow: 0 0 9px #333333;
     box-shadow: 0 0 9px #333333;
@@ -6298,16 +6298,16 @@ body .hologram strong {
     box-shadow: 0 0 9px #333333;
   }
   50% {
-    background-color: #2daebf;
-    -webkit-box-shadow: 0 0 18px #2daebf;
-    -moz-box-shadow: 0 0 18px #2daebf;
-    box-shadow: 0 0 18px #2daebf;
-    -webkit-box-shadow: 0 0 18px #2daebf;
-    -moz-box-shadow: 0 0 18px #2daebf;
-    box-shadow: 0 0 18px #2daebf;
+    background-color: rgba(45, 174, 191, 0.6);
+    -webkit-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -moz-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -webkit-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -moz-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
   }
   to {
-    background-color: #007d9a;
+    background-color: rgba(0, 125, 154, 0.8);
     -webkit-box-shadow: 0 0 9px #333333;
     -moz-box-shadow: 0 0 9px #333333;
     box-shadow: 0 0 9px #333333;
@@ -6318,7 +6318,7 @@ body .hologram strong {
 }
 @-o-keyframes hologram {
   from {
-    background-color: #007d9a;
+    background-color: rgba(0, 125, 154, 0.8);
     -webkit-box-shadow: 0 0 9px #333333;
     -moz-box-shadow: 0 0 9px #333333;
     box-shadow: 0 0 9px #333333;
@@ -6327,16 +6327,16 @@ body .hologram strong {
     box-shadow: 0 0 9px #333333;
   }
   50% {
-    background-color: #2daebf;
-    -webkit-box-shadow: 0 0 18px #2daebf;
-    -moz-box-shadow: 0 0 18px #2daebf;
-    box-shadow: 0 0 18px #2daebf;
-    -webkit-box-shadow: 0 0 18px #2daebf;
-    -moz-box-shadow: 0 0 18px #2daebf;
-    box-shadow: 0 0 18px #2daebf;
+    background-color: rgba(45, 174, 191, 0.6);
+    -webkit-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -moz-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -webkit-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -moz-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
   }
   to {
-    background-color: #007d9a;
+    background-color: rgba(0, 125, 154, 0.8);
     -webkit-box-shadow: 0 0 9px #333333;
     -moz-box-shadow: 0 0 9px #333333;
     box-shadow: 0 0 9px #333333;
@@ -6347,7 +6347,7 @@ body .hologram strong {
 }
 @keyframes hologram {
   from {
-    background-color: #007d9a;
+    background-color: rgba(0, 125, 154, 0.8);
     -webkit-box-shadow: 0 0 9px #333333;
     -moz-box-shadow: 0 0 9px #333333;
     box-shadow: 0 0 9px #333333;
@@ -6356,16 +6356,16 @@ body .hologram strong {
     box-shadow: 0 0 9px #333333;
   }
   50% {
-    background-color: #2daebf;
-    -webkit-box-shadow: 0 0 18px #2daebf;
-    -moz-box-shadow: 0 0 18px #2daebf;
-    box-shadow: 0 0 18px #2daebf;
-    -webkit-box-shadow: 0 0 18px #2daebf;
-    -moz-box-shadow: 0 0 18px #2daebf;
-    box-shadow: 0 0 18px #2daebf;
+    background-color: rgba(45, 174, 191, 0.6);
+    -webkit-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -moz-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -webkit-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    -moz-box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
+    box-shadow: 0 0 18px rgba(45, 174, 191, 0.6);
   }
   to {
-    background-color: #007d9a;
+    background-color: rgba(0, 125, 154, 0.8);
     -webkit-box-shadow: 0 0 9px #333333;
     -moz-box-shadow: 0 0 9px #333333;
     box-shadow: 0 0 9px #333333;
