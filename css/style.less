@@ -1,3 +1,6 @@
+@colorHologram1: fade(#007d9a, 80%);
+@colorHologram2: fade(#2daebf, 60%);
+
 ::-webkit-selection{
 	background: @red;
 	color: #fff;
@@ -125,7 +128,7 @@ body{
 		display: inline-block;
 		border-bottom: 1px solid gba(0, 0, 0, 0.25);
 		.border-radius(5px);
-		background: #007d9a;
+		background: @colorHologram1;
 		.box-shadow(0 1px 3px rgba(0,0,0,0.25));
 		color: #fff;
 		text-decoration: none;
@@ -161,27 +164,27 @@ body{
 }
 
 @-webkit-keyframes hologram{
-	from{	background-color: #007d9a; .box-shadow(0 0 9px #333);		}
-	50%{	background-color: #2daebf; .box-shadow(0 0 18px #2daebf);	}
-	to{		background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+	from{	background-color: @colorHologram1; .box-shadow(0 0 9px #333);				}
+	50%{	background-color: @colorHologram2; .box-shadow(0 0 18px @colorHologram2);	}
+	to{		background-color: @colorHologram1; .box-shadow(0 0 9px #333);				}
 }
 @-moz-keyframes hologram{
-	from{	background-color: #007d9a; .box-shadow(0 0 9px #333);		}
-	50%{	background-color: #2daebf; .box-shadow(0 0 18px #2daebf);	}
-	to{		background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+	from{	background-color: @colorHologram1; .box-shadow(0 0 9px #333);				}
+	50%{	background-color: @colorHologram2; .box-shadow(0 0 18px @colorHologram2);	}
+	to{		background-color: @colorHologram1; .box-shadow(0 0 9px #333);				}
 }
 @-ms-keyframes hologram{
-	from{	background-color: #007d9a; .box-shadow(0 0 9px #333);		}
-	50%{	background-color: #2daebf; .box-shadow(0 0 18px #2daebf);	}
-	to{		background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+	from{	background-color: @colorHologram1; .box-shadow(0 0 9px #333);				}
+	50%{	background-color: @colorHologram2; .box-shadow(0 0 18px @colorHologram2);	}
+	to{		background-color: @colorHologram1; .box-shadow(0 0 9px #333);				}
 }
 @-o-keyframes hologram{
-	from{	background-color: #007d9a; .box-shadow(0 0 9px #333);		}
-	50%{	background-color: #2daebf; .box-shadow(0 0 18px #2daebf);	}
-	to{		background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+	from{	background-color: @colorHologram1; .box-shadow(0 0 9px #333);				}
+	50%{	background-color: @colorHologram2; .box-shadow(0 0 18px @colorHologram2);	}
+	to{		background-color: @colorHologram1; .box-shadow(0 0 9px #333);				}
 }
 @keyframes hologram{
-	from{	background-color: #007d9a; .box-shadow(0 0 9px #333);		}
-	50%{	background-color: #2daebf; .box-shadow(0 0 18px #2daebf);	}
-	to{		background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+	from{	background-color: @colorHologram1; .box-shadow(0 0 9px #333);				}
+	50%{	background-color: @colorHologram2; .box-shadow(0 0 18px @colorHologram2);	}
+	to{		background-color: @colorHologram1; .box-shadow(0 0 9px #333);				}
 }
