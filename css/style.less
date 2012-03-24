@@ -132,10 +132,18 @@ body{
 		text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
 		
 		-webkit-animation: hologram 4s infinite;
+		-moz-animation: hologram 4s infinite;
+		-ms-animation: hologram 4s infinite;
+		-o-animation: hologram 4s infinite;
+		animation: hologram 4s infinite;
 
 		&:hover{
 			text-decoration: none;
 			-webkit-animation-duration: 2s;
+			-moz-animation-duration: 2s;
+			-ms-animation-duration: 2s;
+			-o-animation-duration: 2s;
+			animation-duration: 2s;
 			
 			strong{
 				color: #ffffa5;
@@ -143,9 +151,7 @@ body{
 			}
 		}
 		&:active{
-			-webkit-transform: translate(0, 1px);
-			-moz-transform: translate(0, 1px);
-			transform: translate(0, 1px);
+			.translate(0, 1px);
 		}
 			
 		strong{
@@ -155,6 +161,26 @@ body{
 }
 
 @-webkit-keyframes hologram{
+	from{	background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+	50%{	background-color: #2daebf; .box-shadow(0 0 18px #2daebf);	}
+	to{		background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+}
+@-moz-keyframes hologram{
+	from{	background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+	50%{	background-color: #2daebf; .box-shadow(0 0 18px #2daebf);	}
+	to{		background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+}
+@-ms-keyframes hologram{
+	from{	background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+	50%{	background-color: #2daebf; .box-shadow(0 0 18px #2daebf);	}
+	to{		background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+}
+@-o-keyframes hologram{
+	from{	background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+	50%{	background-color: #2daebf; .box-shadow(0 0 18px #2daebf);	}
+	to{		background-color: #007d9a; .box-shadow(0 0 9px #333);		}
+}
+@keyframes hologram{
 	from{	background-color: #007d9a; .box-shadow(0 0 9px #333);		}
 	50%{	background-color: #2daebf; .box-shadow(0 0 18px #2daebf);	}
 	to{		background-color: #007d9a; .box-shadow(0 0 9px #333);		}
