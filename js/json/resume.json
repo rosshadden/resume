@@ -12,16 +12,47 @@
 		"country":	"USA",
 		"link":		"http://g.co/maps/8kc6x"
 	},
-	"skills": [
-		"JavaScript",
-		"HTML5",
-		"CSS3",
-		"PHP",
-		"AJAX",
-		"Node.js",
-		"MySQL",
-		"RegEx"
-	],
+	"skills": [{
+		"what":	"JavaScript",
+		"why":	"",
+		"examples": [
+		]
+	},{
+		"what":	"HTML5",
+		"why":	"",
+		"examples": [
+		]
+	},{
+		"what":	"CSS3",
+		"why":	"",
+		"examples": [
+		]
+	},{
+		"what":	"PHP",
+		"why":	"PHP was the first programming language I really got close to.",
+		"examples": [
+		]
+	},{
+		"what":	"AJAX",
+		"why":	"",
+		"examples": [
+		]
+	},{
+		"what":	"Node.js",
+		"why":	"",
+		"examples": [
+		]
+	},{
+		"what":	"MySQL",
+		"why":	"",
+		"examples": [
+		]
+	},{
+		"what":	"RegEx",
+		"why":	"",
+		"examples": [
+		]
+	}],
 	"experience":	[{
 		"who":		"ConnectAI",
 		"link":		"http://connectai.com",
