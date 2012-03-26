@@ -18,38 +18,44 @@
 		"examples": [
 		]
 	},{
-		"what":	"HTML5",
-		"why":	"",
+		"what":	"HTML",
+		"why":	"I love HTML5.  Need I say more?",
 		"examples": [
 		]
 	},{
-		"what":	"CSS3",
-		"why":	"",
+		"what":	"CSS",
+		"why":	"I love CSS3.  Need I say more?  Yes.  I am deathly afraid that <a href='http://remysharp.com/2012/02/09/vendor-prefixes-about-to-go-south/'>this will come to pass</a>.  Also, I am a very big fan of LESS.js and other pre-processors, as well as Bootstrap.",
 		"examples": [
 		]
 	},{
 		"what":	"PHP",
-		"why":	"PHP was the first programming language I really got close to.",
+		"why":	"PHP was the first programming language with which I developed a close relationship.  I started using it back when I was in the 6th grade, and three years later I found myself preaching it to everyone I knew.  My favorite PHP project is an <a href='https://github.com/rosshadden/rossAPI'>API that I created to let me quickly make user databases, blogs, and media players in a convenient stand-alone-or-work-together fashion</a>.  I migrated most of the work to the front-end at one point, but there is still some nice stuff going on in the server side of things.",
 		"examples": [
 		]
 	},{
 		"what":	"AJAX",
-		"why":	"",
+		"why":	"This is undoubtedly an obvious feat by today's standards, but since I was part of the web development world before it become hip, I will <strong>never</strong> take it for granted.",
 		"examples": [
 		]
 	},{
 		"what":	"Node.js",
-		"why":	"",
+		"why":	"One of my larger personal PHP projects was an experimental 2D MMORPG game.  Paying homage to that, one of the first big things I wanted to do with Node.js was to see if I could recreate that game, up to the current state of the former one.  Long story short, I pulled off in two days what had taken me two months to do the first time.  I am <a href='https://github.com/rosshadden/engine'>still working on that project</a>, and still having a blast doing so.  I enjoy working with Connect, Express, Socket-io, Jade, and Stylus, though I have worked with many more libraries as well.",
 		"examples": [
+			""
 		]
 	},{
-		"what":	"MySQL",
-		"why":	"",
+		"what":	"SQL",
+		"why":	"MySQL, MSSQL, et cetera.  That being said, I had to port one of my MySQL servers to MSSQL once and hated that the latter doesn't have limit/offset statements.",
 		"examples": [
 		]
 	},{
 		"what":	"RegEx",
-		"why":	"",
+		"why":	"The more I understand RegEx, the more use-cases I see.  Currently my biggest use is finding/replacing in code editors (which has saved me countless hours of menial work), though I have been <a href='https://github.com/rosshadden/resume/blob/master/js/script.js#L9'>utilizing it</a> increasingly more <a href='https://github.com/rosshadden/resume/blob/master/js/script.js#L25'>in JavaScript projects</a> as well.",
+		"examples": [
+		]
+	},{
+		"what":	"Python",
+		"why":	"Python is easily my favorite software language.  I know C++ and Java, but I actually <strong>enjoy</strong> writing Python.",
 		"examples": [
 		]
 	}],
