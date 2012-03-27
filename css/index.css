@@ -6167,6 +6167,9 @@ body #main a.string:hover, body #main .string a:hover, body #main .key a:hover {
 body #main .indent {
   margin-left: 60px;
 }
+body #main h3 ~ .value {
+  padding-top: 5px;
+}
 body .hologram {
   padding: 5px 15px 6px;
   display: inline-block;

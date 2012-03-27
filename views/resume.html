@@ -43,13 +43,14 @@
 		</div>
 	</section>
 	
-	<section class="array">
+	<section class="object">
 		<div class="row">
 			<h2 class="offset1 span4 key">Skills</h2>
 		</div>
 		{{#each skills}}
 			<div class="row">
-				<div class="offset2 span4 value string">{{this}}</div>
+				<h3 class="offset2 span1 key">{{what}}</h3>
+				<div class="span6 value string">{{{why}}}</div>
 			</div>
 		{{/each}}
 	</section>
@@ -107,7 +108,6 @@
 		<div class="row">
 			<h2 class="offset1 span4 key">Education</h2>
 		</div>
-		<h2></h2>
 		{{#each education}}
 			<section>
 				<div class="row">
