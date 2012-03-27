@@ -14,50 +14,31 @@
 	},
 	"skills": [{
 		"what":	"JavaScript",
-		"why":	"",
-		"examples": [
-		]
+		"why":	"I started my JavaScript journey when copy/paste scripts from the Internet ceased to solve my problems.  Like many others, I had originally dismissed the language as a toy, relying instead on PHP for my heavy-lifting.  I first started enjoying the language when I discovered <a href='http://walterzorn.de/en/dragdrop/dragdrop_e.htm'>a DHTML drag&amp;drop library</a> (did you know he passed away in 2009?  Wow...).  Years later I stumbled upon jQuery, and I have never since doubted the integrity of the language.  I believe a large milestone in the journey of any <abbr title='JavaScript'>JS</abbr> developer is realizing just why and where jQuery is useful, rather than just blindly using it as if it were synonymous with the word 'JavaScript', and in my mind I crossed that milestone a couple of years ago.  Mike Thomas does a <a href='http://atomicrobotdesign.com/blog/general/if-youre-on-a-journey-to-become-a-good-developer-keep-at-it'>pretty good job of summing up my thoughts on this milestone</a> (Mike if you're reading this:  my long-winded comment never got published -_-), but I would like to add that the passion just has to be there in order to cross the metaphorical canyon.  If I have anything, I have that passion.  I love JavaScript, and find myself expanding or exercising that knowledge on a daily basis."
 	},{
 		"what":	"HTML",
-		"why":	"I love HTML5.  Need I say more?",
-		"examples": [
-		]
+		"why":	"HTML5 rocks.  Need I say more?"
 	},{
 		"what":	"CSS",
-		"why":	"I love CSS3.  Need I say more?  Yes.  I am deathly afraid that <a href='http://remysharp.com/2012/02/09/vendor-prefixes-about-to-go-south/'>this will come to pass</a>.  Also, I am a very big fan of LESS.js and other pre-processors, as well as Bootstrap.",
-		"examples": [
-		]
+		"why":	"CSS3 rocks.  Need I say more?  Yes.  I am deathly afraid that <a href='http://remysharp.com/2012/02/09/vendor-prefixes-about-to-go-south/'>this will come to pass</a>.  Also, I am a very big fan of LESS.js and other pre-processors, as well as Bootstrap."
 	},{
 		"what":	"PHP",
-		"why":	"PHP was the first programming language with which I developed a close relationship.  I started using it back when I was in the 6th grade, and three years later I found myself preaching it to everyone I knew.  My favorite PHP project is an <a href='https://github.com/rosshadden/rossAPI'>API that I created to let me quickly make user databases, blogs, and media players in a convenient stand-alone-or-work-together fashion</a>.  I migrated most of the work to the front-end at one point, but there is still some nice stuff going on in the server side of things.",
-		"examples": [
-		]
+		"why":	"PHP was the first programming language with which I developed a close relationship.  I started using it back when I was in the 6th grade, and three years later I found myself preaching it to everyone I knew.  My favorite PHP project is an <a href='https://github.com/rosshadden/rossAPI'>API that I created to let me quickly make user databases, blogs, and media players in a convenient stand-alone-or-work-together fashion</a>.  I migrated most of the work to the front-end at one point, but there is still some nice stuff going on in the server side of things."
 	},{
 		"what":	"AJAX",
-		"why":	"This is undoubtedly an obvious feat by today's standards, but since I was part of the web development world before it become hip, I will <strong>never</strong> take it for granted.",
-		"examples": [
-		]
+		"why":	"This is undoubtedly an obvious feat by today's standards, but as a fledgling member of the web development world before it become hip, I will <strong>never</strong> take it for granted."
 	},{
 		"what":	"Node.js",
-		"why":	"One of my larger personal PHP projects was an experimental 2D MMORPG game.  Paying homage to that, one of the first big things I wanted to do with Node.js was to see if I could recreate that game, up to the current state of the former one.  Long story short, I pulled off in two days what had taken me two months to do the first time.  I am <a href='https://github.com/rosshadden/engine'>still working on that project</a>, and still having a blast doing so.  I enjoy working with Connect, Express, Socket-io, Jade, and Stylus, though I have worked with many more libraries as well.",
-		"examples": [
-			""
-		]
+		"why":	"One of my larger personal PHP projects was an experimental 2D MMORPG game.  Paying homage to that, one of the first big things I wanted to do with Node.js was to see if I could recreate that game, up to the current state of the former one.  Long story short, I pulled off in two days what had taken me two months to do the first time.  I am <a href='https://github.com/rosshadden/engine'>still working on that project</a>, and still having a blast doing so.  I enjoy working with Connect, Express, Socket-io, Jade, and Stylus, though I have worked with many more libraries as well."
 	},{
 		"what":	"SQL",
-		"why":	"MySQL, MSSQL, et cetera.  That being said, I had to port one of my MySQL servers to MSSQL once and hated that the latter doesn't have limit/offset statements.",
-		"examples": [
-		]
+		"why":	"MySQL, MSSQL, et cetera.  That being said, I had to port one of my MySQL servers to MSSQL once and hated that the latter doesn't have limit/offset statements."
 	},{
 		"what":	"RegEx",
-		"why":	"The more I understand RegEx, the more use-cases I see.  Currently my biggest use is finding/replacing in code editors (which has saved me countless hours of menial work), though I have been <a href='https://github.com/rosshadden/resume/blob/master/js/script.js#L9'>utilizing it</a> increasingly more <a href='https://github.com/rosshadden/resume/blob/master/js/script.js#L25'>in JavaScript projects</a> as well.",
-		"examples": [
-		]
+		"why":	"The more I understand RegEx, the more use-cases I see.  Currently my biggest use is finding/replacing in code editors (which has saved me countless hours of menial work), though I have been <a href='https://github.com/rosshadden/resume/blob/master/js/script.js#L9'>utilizing it</a> increasingly more <a href='https://github.com/rosshadden/resume/blob/master/js/script.js#L25'>in JavaScript projects</a> as well."
 	},{
 		"what":	"Python",
-		"why":	"Python is easily my favorite software language.  I know C++ and Java, but I actually <strong>enjoy</strong> writing Python.",
-		"examples": [
-		]
+		"why":	"Python is easily my favorite software language.  I know C++ and Java, but I actually <strong>enjoy</strong> writing Python."
 	}],
 	"experience":	[{
 		"who":		"ConnectAI",
