@@ -43,14 +43,15 @@
 	"experience":	[{
 		"who":		"ConnectAI",
 		"link":		"http://connectai.com",
-		"what":		"Front-End Web Developer",
+		"what":		"Senior JavaScript Engineer",
 		"when":		"March 2012 to present",
 		"where":	"Seattle, WA",
 		"why":		"Placeholder for ConnectAI's tagline.",
 		"how":	[
 			"JavaScript Ninja",
 			"Application development",
-			"Particle system"
+			"Particle system",
+			"Node.js"
 		]
 	},{
 		"who":		"NxTech, Inc.",
@@ -60,7 +61,7 @@
 		"where":	"Milford, OH",
 		"why":		"A leading provider of insurance interface solutions.",
 		"how":	[
-			"JavaScript Ninja",
+			"JavaScript Guru",
 			"Application development",
 			"Design",
 			"Complex form logic",
