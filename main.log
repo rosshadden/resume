@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.9.29)  29 SEP 2013 18:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.9.29)  29 SEP 2013 21:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -21,8 +21,8 @@ Document Style `res' <26 Sep 89>.
 Document Class: res 2000/05/19 v1.4b Resume class
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -48,7 +48,18 @@ No auxiliary output files.
 \resumewidth=\dimen104
 \@columnwidth=\dimen105
 \c@numberofcolumns=\count87
-) (/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/ubuntu/ubuntu.sty
+Package: ubuntu 
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+){/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-d
+ist/fonts/map/ubuntu.map}) (/usr/share/texlive/texmf-dist/tex/latex/mh/mathtool
+s.sty
 Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -167,20 +178,29 @@ Package: amssymb 2009/06/22 v3.00
 (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
-Excluding comment 'comment') (./main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+Excluding comment 'comment')
 
+LaTeX Warning: Unused global option(s):
+    [11pt].
+
+(./main.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Try loading font information for T1+ubuntu on input line 48
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/ubuntu/t1ubuntu.fd
+File: t1ubuntu.fd Ubuntu Font
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -227,10 +247,6 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -270,25 +286,30 @@ e
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
 )
+LaTeX Font Info:    Font shape `T1/ubuntu/bx/n' in size <12> not available
+(Font)              Font shape `T1/ubuntu/b/n' tried instead on input line 52.
+LaTeX Font Info:    Font shape `T1/ubuntu/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ubuntu/b/n' tried instead on input line 53.
+
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] ) 
+] ) 
 Here is how much of TeX's memory you used:
- 3096 strings out of 493485
- 42783 string characters out of 3143526
- 101137 words of memory out of 3000000
- 6375 multiletter control sequences out of 15000+200000
- 4553 words of font info for 17 fonts, out of 3000000 for 9000
+ 3200 strings out of 493485
+ 44342 string characters out of 3143526
+ 102208 words of memory out of 3000000
+ 6469 multiletter control sequences out of 15000+200000
+ 5931 words of font info for 20 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  51i,4n,27p,259b,104s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb>
-Output written on main.pdf (1 page, 38098 bytes).
+{/usr/share/texlive/texmf/fonts/enc/ttf2pk/base/T1-WGL4.enc}</usr/share/texl
+ive/texmf-dist/fonts/type1/public/ubuntu/ubuntu.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/ubuntu/ubuntubd.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/ubuntu/ubuntui.pfb>
+Output written on main.pdf (1 page, 29774 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 21 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
