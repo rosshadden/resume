@@ -1,0 +1,228 @@
+{
+	"settings": {
+		"icons": true
+	},
+	"firstname": "Ross",
+	"familyname": "Hadden",
+	"linkedin_id": "rosshadden",
+	"github_id": "rosshadden",
+	"bio_data": {
+		"email": "ross@rhadden.com",
+		"phone": "513-259-0656",
+		"website": "http://github.com/rosshadden",
+		"stars": ["JavaScript", "Linux", "Game development"],
+		"summary": {
+			"points": [
+				"Skilled at architecting and implementing APIs, applications, and libraries",
+				"Loves solving challenging tasks with inventive tactics"
+			]
+		},
+		"github_projects": {
+			"details": [{
+				"project_name": "rosshadden/dotfiles",
+				"tagline": "Kick-ass dotfiles",
+				"description": [
+					"Godlike vim setup.",
+					"Extremely efficient Arch Linux development environment."
+				]
+			}, {
+				"project_name": "connectai/cs",
+				"tagline": "Cornerstone, an es6 web framework built on express.js",
+				"description": [
+					"Node.js framework that takes advantage of ECMAScript 6 features through the use of [babel](https://babeljs.io/).",
+					"Used in production on a growing number of apps both large and small."
+				]
+			}, {
+				"project_name": "acleverpun/i3-blocks-contrib",
+				"tagline": "Collection of useful blocks for [i3blocks](https://github.com/vivien/i3blocks)",
+				"description": [
+					"..."
+				]
+			}, {
+				"project_name": "rosshadden/engine",
+				"tagline": "JavaScript game engine",
+				"description": [
+					"Used to create both an [rpgmmo prototype](https://github.com/rosshadden/engine-mmo) and a simple [pong clone](https://github.com/rosshadden/engine-pong)."
+				]
+			}, {
+				"project_name": "rosshadden/sublime-xpath",
+				"tagline": "XPath helpers for XML in Sublime Text",
+				"description": [
+					"Copy XPath at cursor(s) to clipboard.",
+					"Updates status bar text to XPath of current line."
+				]
+			}]
+		},
+		"skills": {
+			"details": [{
+				"type": "Programming Languages",
+				"items": [
+					"JavaScript",
+					"Node.js",
+					"Bash",
+					"HTML",
+					"CSS",
+					"Python",
+					"PHP",
+					"Groovy / Grails"
+				]
+			}, {
+				"type": "Web Frameworks",
+				"items": [
+					"Cornerstone",
+					"Express",
+					"Koa"
+				]
+			}, {
+				"type": "Environment",
+				"items": [
+					"Arch Linux",
+					"i3",
+					"vim",
+					"zsh",
+					"tmux",
+					"urxvt"
+				]
+			}, {
+				"type": "Databases",
+				"items": [
+					"MongoDB",
+					"MySQL"
+				]
+			}]
+		},
+		"education": {
+			"show_gpa": true,
+			"schools": [{
+				"degree": "Master of Science",
+				"major": "Computer Science",
+				"institution": "University of Cincinnati",
+				"graduation_month": 5,
+				"graduation_year": 2015,
+				"gpa": "3.889/4"
+			}, {
+				"degree": "Bachelor of Science",
+				"major": "Computer Science",
+				"minor": "Mathematics",
+				"institution": "University of Cincinnati",
+				"graduation_month": 4,
+				"graduation_year": 2014,
+				"gpa": "3.537/4"
+			}]
+		},
+		"experience": {
+			"items": [{
+				"title": "Software Engineer",
+				"organisation": "Zipscene, LLC",
+				"location": "Cincinnati, Ohio",
+				"from": "February 2014",
+				"details": [
+					"..."
+				],
+				"technology_used": {
+					"tools": [
+						"JavaScript",
+						"Node.js",
+						"MongoDB",
+						"elasticsearch"
+					]
+				}
+			}, {
+				"title": "Software Architect and Engineer",
+				"organisation": "WhiteBox",
+				"location": "Baltimore, Maryland",
+				"from": "October 2013",
+				"to": "October 2014",
+				"details": [
+					"..."
+				],
+				"technology_used": {
+					"tools": ["..."]
+				}
+			}, {
+				"title": "Software Architect and Engineer",
+				"organisation": "Mp3Car",
+				"location": "Baltimore, Maryland",
+				"from": "October 2013",
+				"details": [
+					"Develop both internal and external applications."
+				],
+				"technology_used": {
+					"tools": ["..."]
+				}
+			}, {
+				"title": "Software Architect and Engineer",
+				"organisation": "ConnectAi",
+				"location": "Baltimore, Maryland",
+				"from": "March 2012",
+				"details": [
+					"Create custom web applications for a wide range of clients and purposes.",
+					"Created and now improve in-house Node.js framework, Cornerstone.",
+					"Publish and contribute to multiple open-source libraries and tools."
+				],
+				"technology_used": {
+					"tools": ["..."]
+				}
+			}, {
+				"title": "Senior Software Developer",
+				"organisation": "NxTech Incorporated",
+				"location": "Milford, Ohio",
+				"from": "January 2011",
+				"to": "February 2014",
+				"details": [
+					"Built large-scale custom applications for internal use by insurance companies.",
+					"Implemented complex form logic adhering to industry standards, with rich user-interfaces.",
+					"Administered Linux/Windows servers and network devices as a team member."
+				],
+				"technology_used": {
+					"tools": ["JavaScript", "CSS", "Grails", "HTML", "Java", "Python"]
+				}
+			}, {
+				"title": "Freelance Web Developer",
+				"organisation": "How Handy is That",
+				"from": "March 2012",
+				"to": "March 2012",
+				"details": [
+					"Developed company website"
+				],
+				"technology_used": {
+					"tools": ["..."]
+				}
+			}, {
+				"title": "Freelance Web Developer",
+				"organisation": "Employee Talk",
+				"from": "February 2012",
+				"to": "February 2012",
+				"details": [
+					"Designed and developed outward-facing web application.",
+					"Refactored internal web application."
+				],
+				"technology_used": {
+					"tools": ["..."]
+				}
+			}, {
+				"title": "Information Systems Analyst",
+				"organisation": "Kinds Island",
+				"location": "Mason, Ohio",
+				"from": "April 2009",
+				"to": "November 2011",
+				"details": [
+					"Maintained servers, computers, databases, and cash registers across the park",
+					"Designed, developed, and implemented websites in use on the company-wide Intranet",
+					"Administered Active Directory, Exchange, and other servers as a team member",
+					"Fixed computer, network, and point-of-sale issues across the company."
+				],
+				"technology_used": {
+					"tools": ["..."]
+				}
+			}]
+		},
+		"papers": {
+			"items": [{
+				"authors": "Ross Hadden",
+				"title": "A WebSocket-based Approach to Transporting Web Application Data",
+				"misc": "March 26, 2015"
+			}]
+		}
+	}
+}
