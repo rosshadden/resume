@@ -17,6 +17,58 @@
 				"Loves solving challenging tasks with inventive tactics"
 			]
 		},
+		"skills": {
+			"details": [{
+				"type": "Programming Languages",
+				"items": [
+					"JavaScript",
+					"ES6",
+					"Node.js",
+					"Bash",
+					"HTML",
+					"CSS",
+					"Python",
+					"Lua",
+					"PHP",
+					"Groovy",
+					"Java",
+					"C++",
+					"Game Maker Language"
+				]
+			}, {
+				"type": "Tools",
+				"items": [
+					"Git",
+					"NPM",
+					"Bower"
+				]
+			}, {
+				"type": "Frameworks",
+				"items": [
+					"Ember.js",
+					"Cornerstone",
+					"Express",
+					"Koa",
+					"Grails"
+				]
+			}, {
+				"type": "Databases",
+				"items": [
+					"MongoDB",
+					"MySQL"
+				]
+			}, {
+				"type": "Current Environment",
+				"items": [
+					"Arch Linux",
+					"i3",
+					"vim",
+					"zsh",
+					"tmux",
+					"urxvt"
+				]
+			}]
+		},
 		"github_projects": {
 			"details": [{
 				"project_name": "rosshadden/dotfiles",
@@ -50,44 +102,6 @@
 				"description": [
 					"Copy XPath at cursor(s) to clipboard.",
 					"Updates status bar text to XPath of current line."
-				]
-			}]
-		},
-		"skills": {
-			"details": [{
-				"type": "Programming Languages",
-				"items": [
-					"JavaScript",
-					"Node.js",
-					"Bash",
-					"HTML",
-					"CSS",
-					"Python",
-					"PHP",
-					"Groovy / Grails"
-				]
-			}, {
-				"type": "Web Frameworks",
-				"items": [
-					"Cornerstone",
-					"Express",
-					"Koa"
-				]
-			}, {
-				"type": "Environment",
-				"items": [
-					"Arch Linux",
-					"i3",
-					"vim",
-					"zsh",
-					"tmux",
-					"urxvt"
-				]
-			}, {
-				"type": "Databases",
-				"items": [
-					"MongoDB",
-					"MySQL"
 				]
 			}]
 		},
