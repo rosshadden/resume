@@ -10,11 +10,14 @@
 		"email": "ross@rhadden.com",
 		"phone": "513-259-0656",
 		"website": "http://github.com/rosshadden",
-		"stars": ["JavaScript", "Linux", "Game development"],
+		"stars": [
+			"JavaScript aficionado",
+			"Linux evangelist"
+		],
 		"summary": {
 			"points": [
 				"Skilled at architecting and implementing APIs, applications, and libraries",
-				"Loves solving challenging tasks with inventive tactics"
+				"Thoroughly enjoy solving challenging tasks with inventive tactics"
 			]
 		},
 		"skills": {
@@ -23,24 +26,17 @@
 				"items": [
 					"JavaScript",
 					"ES6",
-					"Node.js",
 					"Bash",
-					"HTML",
 					"CSS",
+					"PHP",
 					"Python",
 					"Lua",
-					"PHP",
+					"VimL",
+					"Canvas",
+					"WebGL",
 					"Groovy",
 					"Java",
-					"C++",
-					"Game Maker Language"
-				]
-			}, {
-				"type": "Tools",
-				"items": [
-					"Git",
-					"NPM",
-					"Bower"
+					"C++"
 				]
 			}, {
 				"type": "Frameworks",
@@ -52,10 +48,43 @@
 					"Grails"
 				]
 			}, {
+				"type": "Platforms",
+				"items": [
+					"Node.js",
+					"web browsers",
+					"Linux",
+					"Phonegap/Cordova",
+					"Android",
+					"Unity"
+				]
+			}, {
 				"type": "Databases",
 				"items": [
 					"MongoDB",
-					"MySQL"
+					"MySQL/MariaDB",
+					"MSSQL",
+					"Redis",
+					"ElasticSearch"
+				]
+			}, {
+				"type": "Interests",
+				"items": [
+					"API development",
+					"game development",
+					"learning",
+					"helping others improve"
+				]
+			}, {
+				"type": "Miscellaneous",
+				"items": [
+					"Git",
+					"NPM",
+					"Bower",
+					"JSON RPC",
+					"REST",
+					"SOAP",
+					"Agile",
+					"Scrum"
 				]
 			}, {
 				"type": "Current Environment",
@@ -72,10 +101,10 @@
 		"github_projects": {
 			"details": [{
 				"project_name": "rosshadden/dotfiles",
-				"tagline": "Kick-ass dotfiles",
+				"tagline": "Personal dotfiles and useful scripts",
 				"description": [
-					"Godlike vim setup.",
-					"Extremely efficient Arch Linux development environment."
+					"Extremely efficient Arch Linux development environment.",
+					"Advanced vim customization."
 				]
 			}, {
 				"project_name": "connectai/cs",
@@ -86,23 +115,13 @@
 				]
 			}, {
 				"project_name": "acleverpun/i3-blocks-contrib",
-				"tagline": "Collection of useful blocks for [i3blocks](https://github.com/vivien/i3blocks)",
-				"description": [
-					"..."
-				]
+				"tagline": "Collection of useful blocks for [i3blocks](https://github.com/vivien/i3blocks)"
 			}, {
 				"project_name": "rosshadden/engine",
-				"tagline": "JavaScript game engine",
-				"description": [
-					"Used to create both an [rpgmmo prototype](https://github.com/rosshadden/engine-mmo) and a simple [pong clone](https://github.com/rosshadden/engine-pong)."
-				]
+				"tagline": "JavaScript game engine"
 			}, {
 				"project_name": "rosshadden/sublime-xpath",
-				"tagline": "XPath helpers for XML in Sublime Text",
-				"description": [
-					"Copy XPath at cursor(s) to clipboard.",
-					"Updates status bar text to XPath of current line."
-				]
+				"tagline": "XPath helpers for XML in Sublime Text"
 			}]
 		},
 		"education": {
@@ -129,7 +148,8 @@
 				"title": "Software Engineer",
 				"organisation": "Zipscene, LLC",
 				"location": "Cincinnati, Ohio",
-				"from": "February 2014",
+				"from": "Feb. 2014",
+				"to": "Present",
 				"details": [
 					"..."
 				],
@@ -145,8 +165,8 @@
 				"title": "Software Architect and Engineer",
 				"organisation": "WhiteBox",
 				"location": "Baltimore, Maryland",
-				"from": "October 2013",
-				"to": "October 2014",
+				"from": "Oct. 2013",
+				"to": "Oct. 2014",
 				"details": [
 					"..."
 				],
@@ -157,7 +177,8 @@
 				"title": "Software Architect and Engineer",
 				"organisation": "Mp3Car",
 				"location": "Baltimore, Maryland",
-				"from": "October 2013",
+				"from": "Oct. 2013",
+				"to": "Present",
 				"details": [
 					"Develop both internal and external applications."
 				],
@@ -168,7 +189,8 @@
 				"title": "Software Architect and Engineer",
 				"organisation": "ConnectAi",
 				"location": "Baltimore, Maryland",
-				"from": "March 2012",
+				"from": "Mar. 2012",
+				"to": "Present",
 				"details": [
 					"Create custom web applications for a wide range of clients and purposes.",
 					"Created and now improve in-house Node.js framework, Cornerstone.",
@@ -181,53 +203,51 @@
 				"title": "Senior Software Developer",
 				"organisation": "NxTech Incorporated",
 				"location": "Milford, Ohio",
-				"from": "January 2011",
-				"to": "February 2014",
+				"from": "Jan. 2011",
+				"to": "Feb. 2014",
 				"details": [
 					"Built large-scale custom applications for internal use by insurance companies.",
-					"Implemented complex form logic adhering to industry standards, with rich user-interfaces.",
+					"Implemented complex form logic adhering to insurance industry standards, with rich user-interfaces.",
 					"Administered Linux/Windows servers and network devices as a team member."
 				],
 				"technology_used": {
-					"tools": ["JavaScript", "CSS", "Grails", "HTML", "Java", "Python"]
+					"tools": ["JavaScript", "CSS", "Groovy", "Grails", "Java", "Python"]
 				}
 			}, {
 				"title": "Freelance Web Developer",
 				"organisation": "How Handy is That",
-				"from": "March 2012",
-				"to": "March 2012",
+				"from": "Mar. 2012",
 				"details": [
 					"Developed company website"
 				],
 				"technology_used": {
-					"tools": ["..."]
+					"tools": ["JavaScript", "Google analytics", "CSS"]
 				}
 			}, {
 				"title": "Freelance Web Developer",
 				"organisation": "Employee Talk",
-				"from": "February 2012",
-				"to": "February 2012",
+				"from": "Feb. 2012",
 				"details": [
-					"Designed and developed outward-facing web application.",
+					"Developed outward-facing web application.",
 					"Refactored internal web application."
 				],
 				"technology_used": {
-					"tools": ["..."]
+					"tools": ["JavaScript", "PHP", "MySQL", "CSS"]
 				}
 			}, {
 				"title": "Information Systems Analyst",
 				"organisation": "Kinds Island",
 				"location": "Mason, Ohio",
-				"from": "April 2009",
-				"to": "November 2011",
+				"from": "Apr. 2009",
+				"to": "Nov. 2011",
 				"details": [
 					"Maintained servers, computers, databases, and cash registers across the park",
-					"Designed, developed, and implemented websites in use on the company-wide Intranet",
+					"Designed and developed websites and apps in use on the company-wide Intranet",
 					"Administered Active Directory, Exchange, and other servers as a team member",
 					"Fixed computer, network, and point-of-sale issues across the company."
 				],
 				"technology_used": {
-					"tools": ["..."]
+					"tools": ["PHP", "JavaScript", "MSSQL", "MS AD", "MS Exchange", "Symantec Ghost", "MICROS"]
 				}
 			}]
 		},
