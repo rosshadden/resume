@@ -1,23 +1,23 @@
 {
-	"settings": {
-		"icons": true
-	},
 	"firstname": "Ross",
 	"familyname": "Hadden",
-	"linkedin_id": "rosshadden",
+
 	"github_id": "rosshadden",
+	"linkedin_id": "rosshadden",
+
 	"bio_data": {
 		"email": "ross@rhadden.com",
 		"phone": "513-259-0656",
-		"website": "http://github.com/rosshadden",
+		"website": "http://rhadden.com",
 		"stars": [
 			"JavaScript aficionado",
-			"Linux evangelist"
+			"Linux evangelist",
+			"Trombonist extraordinaire"
 		],
 		"summary": {
 			"points": [
 				"Skilled at architecting and implementing APIs, applications, and libraries",
-				"Thoroughly enjoy solving challenging tasks with inventive tactics"
+				"Thoroughly enjoys solving challenging tasks with inventive tactics"
 			]
 		},
 		"skills": {
@@ -45,7 +45,8 @@
 					"Cornerstone",
 					"Express",
 					"Koa",
-					"Grails"
+					"Grails",
+					"Unity"
 				]
 			}, {
 				"type": "Platforms",
@@ -54,17 +55,29 @@
 					"web browsers",
 					"Linux",
 					"Phonegap/Cordova",
-					"Android",
-					"Unity"
+					"Android"
 				]
 			}, {
 				"type": "Databases",
 				"items": [
 					"MongoDB",
-					"MySQL/MariaDB",
+					"MariaDB/MySQL",
 					"MSSQL",
 					"Redis",
 					"ElasticSearch"
+				]
+			}, {
+				"type": "Miscellaneous",
+				"items": [
+					"Git",
+					"RegEx",
+					"NPM",
+					"Bower",
+					"JSON RPC",
+					"REST",
+					"SOAP",
+					"Agile",
+					"Scrum"
 				]
 			}, {
 				"type": "Interests",
@@ -75,22 +88,10 @@
 					"helping others improve"
 				]
 			}, {
-				"type": "Miscellaneous",
-				"items": [
-					"Git",
-					"NPM",
-					"Bower",
-					"JSON RPC",
-					"REST",
-					"SOAP",
-					"Agile",
-					"Scrum"
-				]
-			}, {
 				"type": "Current Environment",
 				"items": [
 					"Arch Linux",
-					"i3",
+					"i3wm",
 					"vim",
 					"zsh",
 					"tmux",
@@ -108,14 +109,16 @@
 				]
 			}, {
 				"project_name": "connectai/cs",
-				"tagline": "Cornerstone, an es6 web framework built on express.js",
+				"tagline": "Cornerstone, an ES6 Node.js web framework built on express.js",
 				"description": [
-					"Node.js framework that takes advantage of ECMAScript 6 features through the use of [babel](https://babeljs.io/).",
 					"Used in production on a growing number of apps both large and small."
 				]
 			}, {
 				"project_name": "acleverpun/i3-blocks-contrib",
 				"tagline": "Collection of useful blocks for [i3blocks](https://github.com/vivien/i3blocks)"
+			}, {
+				"project_name": "rosshadden/entropy",
+				"tagline": "JavaScript collection selector engine"
 			}, {
 				"project_name": "rosshadden/engine",
 				"tagline": "JavaScript game engine"
@@ -151,15 +154,16 @@
 				"from": "Feb. 2014",
 				"to": "Present",
 				"details": [
-					"..."
+					"Created and maintained an app platform, used to build native, mobile, and web apps for restaurants.",
+					"Helped develop an API used by all projects within the company, and exposed to many clients.",
+					"Worked with a team building systems and processes used for data analytics.",
+					"Contribute to open-source tools, mostly those created in-house.",
+					"Operate in an Agile ecosystem, with daily Scrum meetings and biweekly sprints.",
+					"Helped develop dashboard for visualizing and altering data, used both internally and by clients.",
+					"Worked on highly-customized mobile and web apps for restaurants."
 				],
 				"technology_used": {
-					"tools": [
-						"JavaScript",
-						"Node.js",
-						"MongoDB",
-						"elasticsearch"
-					]
+					"tools": ["JavaScript", "Node.js", "MongoDB", "Ember.js", "Phonegap/Cordova", "Bash", "Redis", "ElasticSearch", "Big Data"]
 				}
 			}, {
 				"title": "Software Architect and Engineer",
@@ -168,10 +172,11 @@
 				"from": "Oct. 2013",
 				"to": "Oct. 2014",
 				"details": [
-					"..."
+					"Architected and developed the back-end APIs and event-driven processes.",
+					"Developed [http://whitebox.co](http://www.whitebox.co/) as well as their private client-facing real-time dashboards."
 				],
 				"technology_used": {
-					"tools": ["..."]
+					"tools": ["JavaScript", "Node.js", "MongoDB", "MariaDB/MySQL", "WebSockets", "PHP", "CSS"]
 				}
 			}, {
 				"title": "Software Architect and Engineer",
@@ -183,7 +188,7 @@
 					"Develop both internal and external applications."
 				],
 				"technology_used": {
-					"tools": ["..."]
+					"tools": ["JavaScript", "Node.js", "MongoDB", "Ember.js", "MariaDB/MySQL", "WebSockets", "PHP"]
 				}
 			}, {
 				"title": "Software Architect and Engineer",
@@ -193,11 +198,11 @@
 				"to": "Present",
 				"details": [
 					"Create custom web applications for a wide range of clients and purposes.",
-					"Created and now improve in-house Node.js framework, Cornerstone.",
-					"Publish and contribute to multiple open-source libraries and tools."
+					"Created and maintain in-house Node.js framework, Cornerstone.",
+					"Publish and contribute multiple open-source libraries and tools."
 				],
 				"technology_used": {
-					"tools": ["..."]
+					"tools": ["JavaScript", "Node.js", "MongoDB", "Ember.js", "Phonegap/Cordova", "MariaDB/MySQL", "Bash", "WebSockets", "canvas", "WebGL", "PHP", "CSS", "React.js", "AngularJS"]
 				}
 			}, {
 				"title": "Senior Software Developer",
@@ -241,9 +246,9 @@
 				"from": "Apr. 2009",
 				"to": "Nov. 2011",
 				"details": [
-					"Maintained servers, computers, databases, and cash registers across the park",
-					"Designed and developed websites and apps in use on the company-wide Intranet",
-					"Administered Active Directory, Exchange, and other servers as a team member",
+					"Maintained servers, computers, databases, and cash registers across the park.",
+					"Designed and developed websites and apps in use on the company-wide Intranet.",
+					"Administered Active Directory, Exchange, and other servers as a team member.",
 					"Fixed computer, network, and point-of-sale issues across the company."
 				],
 				"technology_used": {
@@ -258,5 +263,9 @@
 				"misc": "March 26, 2015"
 			}]
 		}
+	},
+
+	"settings": {
+		"icons": true
 	}
 }
