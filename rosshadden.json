@@ -104,7 +104,7 @@
 				"project_name": "rosshadden/dotfiles",
 				"tagline": "Personal dotfiles and useful scripts",
 				"description": [
-					"Extremely efficient Arch Linux development environment.",
+					"Extremely efficient Arch Linux, i3wm, tmux, and vim development environment.",
 					"Advanced vim customization."
 				]
 			}, {
@@ -154,8 +154,9 @@
 				"from": "Feb. 2014",
 				"to": "Present",
 				"details": [
-					"Created and maintained an app platform, used to build native, mobile, and web apps for restaurants.",
 					"Helped develop an API used by all projects within the company, and exposed to many clients.",
+					"Write unit tests aimed at complete code coverage.",
+					"Created and maintained an app platform, used to build native, mobile, and web apps for restaurants.",
 					"Worked with a team building systems and processes used for data analytics.",
 					"Contribute to open-source tools, mostly those created in-house.",
 					"Operate in an Agile ecosystem, with daily Scrum meetings and biweekly sprints.",
@@ -163,7 +164,7 @@
 					"Worked on highly-customized mobile and web apps for restaurants."
 				],
 				"technology_used": {
-					"tools": ["JavaScript", "Node.js", "MongoDB", "Ember.js", "Phonegap/Cordova", "Bash", "Redis", "ElasticSearch", "Big Data"]
+					"tools": ["JavaScript", "Node.js", "MongoDB", "Ember.js", "Phonegap/Cordova", "Bash", "Redis", "ElasticSearch", "RabbitMQ", "npmjs"]
 				}
 			}, {
 				"title": "Software Architect and Engineer",
