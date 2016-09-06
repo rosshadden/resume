@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-json_resume convert --out=tex_pdf --dest-dir=dist rosshadden.json
+cd dist || exit
+json_resume convert --out=tex_pdf ../rosshadden.json
+cd .. || exit
