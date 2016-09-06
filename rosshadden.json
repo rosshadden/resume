@@ -6,9 +6,9 @@
 	"linkedin_id": "rosshadden",
 
 	"bio_data": {
-		"email": "ross@rhadden.com",
+		"email": "ross@hadden.family",
 		"phone": "513-259-0656",
-		"website": "http://rhadden.com",
+		"website": "http://github.com/rosshadden",
 		"stars": [
 			"JavaScript aficionado",
 			"Linux evangelist",
@@ -25,28 +25,30 @@
 				"type": "Programming Languages",
 				"items": [
 					"JavaScript",
-					"ES6",
 					"Bash",
-					"CSS",
-					"PHP",
-					"Python",
 					"Lua",
+					"Moonscript",
+					"Python",
+					"Rust",
 					"VimL",
 					"Canvas",
 					"WebGL",
+					"C/C++",
 					"Groovy",
 					"Java",
-					"C++"
+					"CSS",
+					"PHP"
 				]
 			}, {
 				"type": "Frameworks",
 				"items": [
 					"Ember.js",
-					"Cornerstone",
-					"Express",
 					"Koa",
-					"Grails",
-					"Unity"
+					"Express",
+					"Love2d",
+					"Phaser.io",
+					"Unity3d",
+					"Grails"
 				]
 			}, {
 				"type": "Platforms",
@@ -62,7 +64,7 @@
 				"items": [
 					"MongoDB",
 					"MariaDB/MySQL",
-					"MSSQL",
+					"MSSQL (eww)",
 					"Redis",
 					"ElasticSearch"
 				]
@@ -83,19 +85,20 @@
 				"type": "Interests",
 				"items": [
 					"API development",
+					"architecture",
 					"game development",
-					"learning",
-					"helping others improve"
+					"teaching",
+					"learning"
 				]
 			}, {
 				"type": "Current Environment",
 				"items": [
 					"Arch Linux",
 					"i3wm",
-					"vim",
-					"zsh",
+					"neovim",
 					"tmux",
-					"urxvt"
+					"termite",
+					"zsh"
 				]
 			}]
 		},
@@ -107,6 +110,9 @@
 					"Extremely efficient Arch Linux, i3wm, tmux, and vim development environment.",
 					"Advanced vim customization."
 				]
+			}, {
+				"project_name": "rosshadden/oneofthesedays",
+				"tagline": "Love2d experiment using moonscript."
 			}, {
 				"project_name": "connectai/cs",
 				"tagline": "Cornerstone, an ES6 Node.js web framework built on express.js",
@@ -154,17 +160,19 @@
 				"from": "Feb. 2014",
 				"to": "Present",
 				"details": [
+					"Work on machine-learning audience segment analysis tool.",
+					"Work on many internal libraries that benefit most of our products.",
 					"Helped develop an API used by all projects within the company, and exposed to many clients.",
-					"Write unit tests aimed at complete code coverage.",
 					"Created and maintained an app platform, used to build native, mobile, and web apps for restaurants.",
+					"Write unit tests aimed at complete code coverage.",
 					"Worked with a team building systems and processes used for data analytics.",
-					"Contribute to open-source tools, mostly those created in-house.",
+					"Contribute to open-source tools, including those created in-house.",
 					"Operate in an Agile ecosystem, with daily Scrum meetings and biweekly sprints.",
 					"Helped develop dashboard for visualizing and altering data, used both internally and by clients.",
 					"Worked on highly-customized mobile and web apps for restaurants."
 				],
 				"technology_used": {
-					"tools": ["JavaScript", "Node.js", "MongoDB", "Ember.js", "Phonegap/Cordova", "Bash", "Redis", "ElasticSearch", "RabbitMQ", "npmjs"]
+					"tools": [ "JavaScript", "Node.js", "MongoDB", "Bash", "Redis", "RabbitMQ", "Ember.js", "Phonegap/Cordova", "ElasticSearch", "lua" ]
 				}
 			}, {
 				"title": "Software Architect and Engineer",
@@ -177,7 +185,7 @@
 					"Developed [http://whitebox.co](http://www.whitebox.co/) as well as their private client-facing real-time dashboards."
 				],
 				"technology_used": {
-					"tools": ["JavaScript", "Node.js", "MongoDB", "MariaDB/MySQL", "WebSockets", "PHP", "CSS"]
+					"tools": [ "JavaScript", "Node.js", "MongoDB", "MariaDB/MySQL", "WebSockets", "PHP", "CSS" ]
 				}
 			}, {
 				"title": "Software Architect and Engineer",
@@ -189,7 +197,7 @@
 					"Develop both internal and external applications."
 				],
 				"technology_used": {
-					"tools": ["JavaScript", "Node.js", "MongoDB", "Ember.js", "MariaDB/MySQL", "WebSockets", "PHP"]
+					"tools": [ "JavaScript", "Node.js", "MongoDB", "Ember.js", "MariaDB/MySQL", "WebSockets", "PHP" ]
 				}
 			}, {
 				"title": "Software Architect and Engineer",
@@ -203,7 +211,7 @@
 					"Publish and contribute multiple open-source libraries and tools."
 				],
 				"technology_used": {
-					"tools": ["JavaScript", "Node.js", "MongoDB", "Ember.js", "Phonegap/Cordova", "MariaDB/MySQL", "Bash", "WebSockets", "canvas", "WebGL", "PHP", "CSS", "React.js", "AngularJS"]
+					"tools": [ "JavaScript", "Node.js", "MongoDB", "Ember.js", "Phonegap/Cordova", "MariaDB/MySQL", "Bash", "WebSockets", "canvas", "WebGL", "PHP", "CSS", "React.js", "AngularJS" ]
 				}
 			}, {
 				"title": "Senior Software Developer",
@@ -217,7 +225,7 @@
 					"Administered Linux/Windows servers and network devices as a team member."
 				],
 				"technology_used": {
-					"tools": ["JavaScript", "CSS", "Groovy", "Grails", "Java", "Python"]
+					"tools": [ "JavaScript", "CSS", "Groovy", "Grails", "Java", "Python" ]
 				}
 			}, {
 				"title": "Freelance Web Developer",
@@ -227,7 +235,7 @@
 					"Developed company website"
 				],
 				"technology_used": {
-					"tools": ["JavaScript", "Google analytics", "CSS"]
+					"tools": [ "JavaScript", "Google analytics", "CSS" ]
 				}
 			}, {
 				"title": "Freelance Web Developer",
@@ -238,7 +246,7 @@
 					"Refactored internal web application."
 				],
 				"technology_used": {
-					"tools": ["JavaScript", "PHP", "MySQL", "CSS"]
+					"tools": [ "JavaScript", "PHP", "MySQL", "CSS" ]
 				}
 			}, {
 				"title": "Information Systems Analyst",
@@ -253,7 +261,7 @@
 					"Fixed computer, network, and point-of-sale issues across the company."
 				],
 				"technology_used": {
-					"tools": ["PHP", "JavaScript", "MSSQL", "MS AD", "MS Exchange", "Symantec Ghost", "MICROS"]
+					"tools": [ "JavaScript", "PHP", "MSSQL", "BATCH", "Active Directory", "MS Exchange", "Symantec Ghost" ]
 				}
 			}]
 		},
