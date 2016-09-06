@@ -103,35 +103,37 @@
 			}]
 		},
 		"github_projects": {
-			"details": [{
-				"project_name": "rosshadden/dotfiles",
-				"tagline": "Personal dotfiles and useful scripts",
-				"description": [
-					"Extremely efficient Arch Linux, i3wm, tmux, and vim development environment.",
-					"Advanced vim customization."
-				]
-			}, {
-				"project_name": "rosshadden/oneofthesedays",
-				"tagline": "Love2d experiment using moonscript."
-			}, {
-				"project_name": "connectai/cs",
-				"tagline": "Cornerstone, an ES6 Node.js web framework built on express.js",
-				"description": [
-					"Used in production on a growing number of apps both large and small."
-				]
-			}, {
-				"project_name": "acleverpun/i3-blocks-contrib",
-				"tagline": "Collection of useful blocks for [i3blocks](https://github.com/vivien/i3blocks)"
-			}, {
-				"project_name": "rosshadden/entropy",
-				"tagline": "JavaScript collection selector engine"
-			}, {
-				"project_name": "rosshadden/engine",
-				"tagline": "JavaScript game engine"
-			}, {
-				"project_name": "rosshadden/sublime-xpath",
-				"tagline": "XPath helpers for XML in Sublime Text"
-			}]
+			"details": [
+				{
+					"project_name": "rosshadden/dotfiles",
+					"tagline": "Personal dotfiles and useful scripts",
+					"description": [
+						"Extremely efficient Arch Linux, i3wm, tmux, and vim development environment.",
+						"Advanced vim customization."
+					]
+				}, {
+					"project_name": "rosshadden/oneofthesedays",
+					"tagline": "Love2d experiment using moonscript."
+				}, {
+					"project_name": "connectai/cs",
+					"tagline": "Cornerstone, an ES6 Node.js web framework built on express.js",
+					"description": [
+						"Used in production on a growing number of apps both large and small."
+					]
+				}, {
+					"project_name": "acleverpun/i3-blocks-contrib",
+					"tagline": "Collection of useful blocks for [i3blocks](https://github.com/vivien/i3blocks)"
+				}, {
+					"project_name": "rosshadden/entropy",
+					"tagline": "JavaScript collection selector engine"
+				}, {
+					"project_name": "rosshadden/engine",
+					"tagline": "JavaScript game engine"
+				}, {
+					"project_name": "rosshadden/sublime-xpath",
+					"tagline": "XPath helpers for XML in Sublime Text"
+				}
+			]
 		},
 		"education": {
 			"show_gpa": true,
