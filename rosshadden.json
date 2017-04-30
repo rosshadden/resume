@@ -31,9 +31,9 @@
 					"Python",
 					"Rust",
 					"VimL",
-					"Canvas",
 					"WebGL",
 					"C/C++",
+					"Canvas",
 					"Groovy",
 					"Java",
 					"CSS",
@@ -156,13 +156,13 @@
 		},
 		"experience": {
 			"items": [{
-				"title": "Software Engineer",
+				"title": "Senior Software Engineer",
 				"organisation": "Zipscene, LLC",
 				"location": "Cincinnati, Ohio",
 				"from": "Feb. 2014",
 				"to": "Present",
 				"details": [
-					"Work on machine-learning audience segment analysis tool.",
+					"Work on machine-learning audience segment analysis project.",
 					"Work on many internal libraries that benefit most of our products.",
 					"Helped develop an API used by all projects within the company, and exposed to many clients.",
 					"Created and maintained an app platform, used to build native, mobile, and web apps for restaurants.",
