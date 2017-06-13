@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
 cd dist || exit
-json_resume convert --out=tex_pdf ../rosshadden.json
+json_resume convert --out=tex_pdf --template=../templates/pdf.mustache ../rosshadden.json
 mv resume.pdf rosshadden.pdf
 cd .. || exit
