@@ -28,11 +28,12 @@
 					"Bash",
 					"Lua",
 					"Moonscript",
+					"Nim",
 					"Python",
 					"Rust",
 					"VimL",
-					"WebGL",
-					"C/C++",
+					"C++",
+					"C",
 					"Canvas",
 					"Groovy",
 					"Java",
@@ -47,6 +48,8 @@
 					"Express",
 					"Love2d",
 					"Phaser.io",
+					"Godot",
+					"Atomic Game Engine",
 					"Unity3d",
 					"Grails"
 				]
