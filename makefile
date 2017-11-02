@@ -3,5 +3,5 @@ all: build
 clean:
 	scripts/clean.sh
 
-build: clean
+build:
 	scripts/build.sh

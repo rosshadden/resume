@@ -31,11 +31,10 @@
 					"Moonscript",
 					"Nim",
 					"Python",
-					"C#",
-					"VimL",
 					"C++",
 					"C",
-					"Canvas",
+					"C#",
+					"VimL",
 					"Groovy",
 					"Java",
 					"CSS",
@@ -47,20 +46,22 @@
 					"Ember.js",
 					"Koa",
 					"Express",
+					"Godot",
 					"Love2d",
 					"Phaser.io",
-					"Godot",
 					"Atomic Game Engine",
 					"Unity3d",
 					"Grails"
 				]
 			}, {
-				"type": "Platforms",
+				"type": "Target platforms",
 				"items": [
 					"Node.js",
-					"web browsers",
-					"Linux",
-					"Phonegap/Cordova",
+					"desktop",
+					"web",
+					"CLI",
+					"AVR",
+					"ARM",
 					"Android"
 				]
 			}, {
@@ -77,8 +78,6 @@
 				"items": [
 					"Git",
 					"RegEx",
-					"NPM",
-					"Bower",
 					"JSON RPC",
 					"REST",
 					"SOAP",
@@ -88,14 +87,14 @@
 			}, {
 				"type": "Interests",
 				"items": [
-					"API development",
 					"architecture",
 					"game development",
+					"API development",
 					"teaching",
 					"learning"
 				]
 			}, {
-				"type": "Current Environment",
+				"type": "Current environment",
 				"items": [
 					"Arch Linux",
 					"i3wm",
@@ -128,7 +127,7 @@
 					"tagline": "Cornerstone, an ES6 Node.js web framework built on express.js"
 				}, {
 					"project_name": "rosshadden/entropy",
-					"tagline": "JavaScript collection selector engine"
+					"tagline": "JavaScript collection selector engine (predates underscore.js)"
 				}
 			]
 		},
@@ -153,20 +152,32 @@
 		},
 		"experience": {
 			"items": [{
+				"title": "Owner",
+				"organisation": "Hat On LLC",
+				"location": "Maineville, Ohio",
+				"from": "Aug. 2017",
+				"to": "Present",
+				"details": [
+					"Work on projects for CSGORoll."
+				],
+				"technology_used": {
+					"tools": [ "JavaScript", "Node.js", "MongoDB", "GraphQL", "MariaDB/MySQL", "PHP" ]
+				}
+			}, {
 				"title": "Senior Software Engineer",
 				"organisation": "Zipscene, LLC",
 				"location": "Cincinnati, Ohio",
 				"from": "Feb. 2014",
-				"to": "Present",
+				"to": "Sep. 2017",
 				"details": [
-					"Work on machine-learning audience segment analysis project.",
-					"Work on many internal libraries that benefit most of our products.",
+					"Worked on machine-learning audience segment analysis project.",
+					"Worked on many internal libraries that benefit most of our products.",
 					"Helped develop an API used by all projects within the company, and exposed to many clients.",
 					"Created and maintained an app platform, used to build native, mobile, and web apps for restaurants.",
-					"Write unit tests aimed at complete code coverage.",
+					"Wrote unit tests aimed at complete code coverage.",
 					"Worked with a team building systems and processes used for data analytics.",
-					"Contribute to open-source tools, including those created in-house.",
-					"Operate in an Agile ecosystem, with daily Scrum meetings and biweekly sprints.",
+					"Contributed to open-source tools, including those created in-house.",
+					"Operated in an Agile ecosystem, with daily Scrum meetings and biweekly sprints.",
 					"Helped develop dashboard for visualizing and altering data, used both internally and by clients.",
 					"Worked on highly-customized mobile and web apps for restaurants."
 				],
