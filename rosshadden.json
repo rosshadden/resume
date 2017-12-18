@@ -111,23 +111,23 @@
 					"project_name": "fragworks/frag",
 					"tagline": "Game engine written in nim."
 				}, {
+					"project_name": "smashblaster/stitch",
+					"tagline": "Embedded systems hardware project that improves GameCube controllers."
+				}, {
 					"project_name": "rosshadden/dotfiles",
 					"tagline": "Efficient Arch Linux, i3wm, tmux, and vim environment."
 				}, {
-					"project_name": "smashblaster/stitch",
-					"tagline": "Project that improves GameCube controllers."
+					"project_name": "acleverpun/secs",
+					"tagline": "An entity-component system for LÖVE."
 				}, {
 					"project_name": "acleverpun/i3-blocks-contrib",
-					"tagline": "Collection of useful blocks for [i3blocks](https://github.com/vivien/i3blocks)"
+					"tagline": "Collection of useful blocks for [i3blocks](https://github.com/vivien/i3blocks)."
 				}, {
 					"project_name": "rosshadden/sublime-xpath",
-					"tagline": "XPath helpers for XML in Sublime Text"
-				}, {
-					"project_name": "connectai/cs",
-					"tagline": "Cornerstone, an ES6 Node.js web framework built on express.js"
+					"tagline": "XPath helpers for XML in Sublime Text."
 				}, {
 					"project_name": "rosshadden/entropy",
-					"tagline": "JavaScript collection selector engine (predates underscore.js)"
+					"tagline": "JavaScript collection selector engine (predates underscore.js)."
 				}
 			]
 		},
@@ -148,6 +148,12 @@
 				"graduation_month": 4,
 				"graduation_year": 2014,
 				"gpa": "3.537/4"
+			}, {
+				"degree": "High School",
+				"institution": "Lebanon High School",
+				"graduation_month": 6,
+				"graduation_year": 2009,
+				"gpa": "4.11/4"
 			}]
 		},
 		"experience": {
@@ -161,7 +167,7 @@
 					"Work on projects for CSGORoll."
 				],
 				"technology_used": {
-					"tools": [ "JavaScript", "Node.js", "MongoDB", "GraphQL", "MariaDB/MySQL", "PHP" ]
+					"tools": [ "TypeScript", "Node.js", "MongoDB", "GraphQL", "MariaDB/MySQL", "PHP", "Laravel", "Redis" ]
 				}
 			}, {
 				"title": "Senior Software Engineer",
