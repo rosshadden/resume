@@ -41,19 +41,6 @@
 					"PHP"
 				]
 			}, {
-				"type": "Frameworks",
-				"items": [
-					"Ember.js",
-					"Koa",
-					"Express",
-					"Godot",
-					"Love2d",
-					"Phaser.io",
-					"Atomic Game Engine",
-					"Unity3d",
-					"Grails"
-				]
-			}, {
 				"type": "Target platforms",
 				"items": [
 					"Node.js",
@@ -110,17 +97,20 @@
 		"github_projects": {
 			"details": [
 				{
+					"project_name": "acleverpun/waves",
+					"tagline": "Work in progress prototype game built with Godot and Nim."
+				}, {
 					"project_name": "fragworks/frag",
 					"tagline": "Game engine written in nim."
 				}, {
 					"project_name": "smashblaster/stitch",
-					"tagline": "Embedded systems hardware project that improves GameCube controllers."
+					"tagline": "Embedded systems hardware project that improves and normalizes GameCube controllers for the competitive Super Smash Bros. Melee scene."
 				}, {
 					"project_name": "rosshadden/dotfiles",
 					"tagline": "Efficient Arch Linux, i3wm, tmux, and vim environment."
 				}, {
 					"project_name": "acleverpun/secs",
-					"tagline": "An entity-component system for LÖVE."
+					"tagline": "An entity-component system for the LÖVE game framework."
 				}, {
 					"project_name": "acleverpun/i3-blocks-contrib",
 					"tagline": "Collection of useful blocks for [i3blocks](https://github.com/vivien/i3blocks)."
@@ -166,7 +156,9 @@
 				"from": "Aug. 2017",
 				"to": "Present",
 				"details": [
-					"Work on projects for CSGORoll."
+					"Lead developer for CSGORoll.",
+					"Work on projects for Coineqt.",
+					"Work on projects for Wildcase."
 				],
 				"technology_used": {
 					"tools": [ "TypeScript", "Node.js", "MongoDB", "GraphQL", "MariaDB/MySQL", "PHP", "Laravel", "Redis" ]
@@ -178,7 +170,7 @@
 				"from": "Feb. 2014",
 				"to": "Sep. 2017",
 				"details": [
-					"Worked on machine-learning audience segment analysis project.",
+					"Led a team creating an audience segment analysis project, built upon genetic algorithms.",
 					"Worked with enormous amounts of data, implementing performant algorithms and analytics with it.",
 					"Worked on many internal libraries that benefit most of our products.",
 					"Helped develop an API used by all projects within the company, and exposed to many clients.",
