@@ -43,9 +43,9 @@
 			}, {
 				"type": "Target platforms",
 				"items": [
-					"Node.js",
 					"desktop",
 					"web",
+					"Docker",
 					"CLI",
 					"AVR",
 					"ARM",
@@ -97,6 +97,12 @@
 		"github_projects": {
 			"details": [
 				{
+					"project_name": "rosshadden/yawk",
+					"tagline": "A great API router written in Node.js."
+				}, {
+					"project_name": "whitebox-co/jobba",
+					"tagline": "Jobba the Hub, a job hub used in production at Whitebox."
+				}, {
 					"project_name": "acleverpun/waves",
 					"tagline": "Work in progress prototype game built with Godot and Nim."
 				}, {
@@ -112,14 +118,8 @@
 					"project_name": "acleverpun/secs",
 					"tagline": "An entity-component system for the LÖVE game framework."
 				}, {
-					"project_name": "acleverpun/i3-blocks-contrib",
-					"tagline": "Collection of useful blocks for [i3blocks](https://github.com/vivien/i3blocks)."
-				}, {
 					"project_name": "rosshadden/sublime-xpath",
 					"tagline": "XPath helpers for XML in Sublime Text."
-				}, {
-					"project_name": "rosshadden/entropy",
-					"tagline": "JavaScript collection selector engine (predates underscore.js)."
 				}
 			]
 		},
@@ -156,15 +156,15 @@
 				"from": "Aug. 2017",
 				"to": "Present",
 				"details": [
-					"Lead developer for CSGORoll.",
+					"Lead software engineer and systems engineer for CSGORoll.",
 					"Work on projects for Coineqt.",
 					"Work on projects for Wildcase."
 				],
 				"technology_used": {
-					"tools": [ "TypeScript", "Node.js", "MongoDB", "GraphQL", "MariaDB/MySQL", "PHP", "Laravel", "Redis" ]
+					"tools": [ "TypeScript", "Node.js", "MongoDB", "GraphQL", "MySQL", "PHP", "Laravel", "Redis", "Docker" ]
 				}
 			}, {
-				"title": "Senior Software Engineer",
+				"title": "Senior Software Engineer / Team Lead",
 				"organisation": "Zipscene, LLC",
 				"location": "Cincinnati, Ohio",
 				"from": "Feb. 2014",
@@ -183,7 +183,8 @@
 					"Worked on highly-customized mobile and web apps for restaurants."
 				],
 				"technology_used": {
-					"tools": [ "JavaScript", "Node.js", "MongoDB", "Bash", "Redis", "RabbitMQ", "Ember.js", "Phonegap/Cordova", "ElasticSearch", "lua" ]
+					"tools": [ "JavaScript", "Node.js", "MongoDB", "Bash", "Redis", "RabbitMQ", "Ember.js", "Phonegap/Cordova",
+						"ElasticSearch", "lua", "AWS" ]
 				}
 			}, {
 				"title": "Software Architect and Engineer",
@@ -236,7 +237,7 @@
 					"Administered Linux/Windows servers and network devices as a team member."
 				],
 				"technology_used": {
-					"tools": [ "JavaScript", "CSS", "Groovy", "Grails", "Java", "Python" ]
+					"tools": [ "JavaScript", "CSS", "Groovy", "Grails", "Java", "Python", "AWS" ]
 				}
 			}, {
 				"title": "Freelance Web Developer",
